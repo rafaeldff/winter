@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/WinterEndToEnd.scala" line="23" mnemonic="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="7138026a-782b-4572-b9a6-771d2d6cd0ea" name="Default" comment="" />
-    <ignored path="winter.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="winter.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,61 @@
       <file leaf-file-name="WinterEndToEnd.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterEndToEnd.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="100" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+            <state line="21" column="6" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Specification.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/Specification.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="96" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expectations.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/Expectations.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="68" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matchers.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/Matchers.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expectation.class" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/specification/Expectation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="0.027624309">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scanner.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/rt.jar!/java/util/Scanner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="50" selection-start="3251" selection-end="3347" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/rt.jar!/java/net/URL.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="44" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Winter.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Winter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Winter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="279" selection-end="279" vertical-scroll-proportion="0.3626943">
+            <state line="6" column="35" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,8 +157,8 @@
         <option value="$PROJECT_DIR$/src/Bar.java" />
         <option value="$PROJECT_DIR$/src/FooBar.scala" />
         <option value="$PROJECT_DIR$/src/WinterBootstrap.scala" />
-        <option value="$PROJECT_DIR$/src/WinterEndToEnd.scala" />
         <option value="$PROJECT_DIR$/src/Winter.scala" />
+        <option value="$PROJECT_DIR$/src/WinterEndToEnd.scala" />
       </list>
     </option>
   </component>
@@ -143,15 +200,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="winter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -161,6 +219,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,11 +304,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="fileTemplates" />
@@ -198,6 +325,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="WebServer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/jsr" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.WinterEndToEnd">
     <configuration default="false" name="Bar" type="Application" factoryName="Application" temporary="true">
@@ -269,6 +404,25 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
+    </configuration>
+    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="winter" />
+      <setting name="vmparams" value="" />
+      <setting name="consoleArgs" value="" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="consoleArgs" value="" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -409,11 +563,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Bar" />
       <item index="1" class="java.lang.String" itemvalue="Application.FooBar" />
       <item index="2" class="java.lang.String" itemvalue="Specs.FooBar" />
       <item index="3" class="java.lang.String" itemvalue="Application.WinterEndToEnd" />
+      <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -443,7 +598,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,12 +606,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878049" sideWeight="0.5914333" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.6589786" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.6589786" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.6589786" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -503,28 +658,80 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/jetty/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/Server.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/actors/Future.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.04032258" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/actors/ActorCanReply.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.04225352" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/Application.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="20" selection-end="20" vertical-scroll-proportion="0.04032258" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="6149" selection-end="6149" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/rt.jar!/java/util/Scanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="50" selection-start="3251" selection-end="3347" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/rt.jar!/java/net/URL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="44" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterEndToEnd.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="100" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="33" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Winter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="279" selection-end="279" vertical-scroll-proportion="0.3626943">
+        <state line="6" column="35" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinterEndToEnd.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/Specification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="96" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/Expectations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="68" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/specification/Expectation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="0.027624309">
           <folding />
         </state>
       </provider>

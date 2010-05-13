@@ -4,12 +4,7 @@ import javax.servlet.http.{HttpServletResponse, HttpServletRequest}
 
 object Winter {
   def process(request:Request, response:Response) = {
-    response.body("""
-      <head><title>yay</title></head>
-      <body>
-      <h1>Sup!</h1>
-      </body>
-     """);
+    response.body("""<h1>Hello</h1>""");
   }
 }
 
