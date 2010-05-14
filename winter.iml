@@ -31,7 +31,9 @@
           <root url="jar://$MODULE_DIR$/testLibs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../lib/specs_2.8.0.RC2-1.6.5-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">

@@ -7,8 +7,10 @@ import org.eclipse.jetty.server.{Request, Server}
 import org.eclipse.jetty.server.handler.AbstractHandler
 import org.eclipse.jetty.util.component.LifeCycle
 import org.eclipse.jetty.util.component.LifeCycle.Listener
+import org.specs.matcher.Matchers
+import org.specs.{SpecsMatchers, Specification, Expectations}
 
-object WinterEndToEnd extends WebServer {
+object WinterEndToEnd extends SpecsMatchers with WebServer {
   val port = 9000
 
   def main(arguments:Array[String]) = {
@@ -16,10 +18,10 @@ object WinterEndToEnd extends WebServer {
   }
 
   def shouldReturnHello: Unit = {
-    startWebServer(WinterBootstrap.process)
-    val result = makeRequest("http://localhost:9000/")
     try {
-      assert(result == "<h1>Hello</h1>\n", "Got %s".format(result))
+      startWebServer(WinterBootstrap.process)
+      val result = makeRequest("http://localhost:9000/")
+      "<h1>Hello</h1>\n" must_== result
     }
     finally {
       shutDownWebServer()
