@@ -1,40 +1,70 @@
 import _root_.winter.WinterBootstrap
 import concurrent.SyncVar
+import java.io.{InputStream, PrintWriter, OutputStreamWriter}
 import java.lang.{Throwable, String}
+import java.net.{HttpURLConnection, URL}
 import java.util.Scanner
 import javax.servlet.http.{HttpServletResponse, HttpServletRequest}
 import org.eclipse.jetty.server.{Request, Server}
 import org.eclipse.jetty.server.handler.AbstractHandler
 import org.eclipse.jetty.util.component.LifeCycle
 import org.eclipse.jetty.util.component.LifeCycle.Listener
-import org.specs.matcher.Matchers
-import org.specs.{SpecsMatchers, Specification, Expectations}
+import org.specs.{Specification}
 
-object WinterEndToEnd extends SpecsMatchers with WebServer {
+class WinterEndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
 
-  def main(arguments:Array[String]) = {
-    shouldReturnHello
+  "Winter" should {
+    doBefore(startWebServer(WinterBootstrap.process))
+    doAfter(shutDownWebServer)
+    
+    "service a simple web request" in {
+        val result = doGET("http://localhost:9000/")
+        result must_== "<h1>Hello </h1>\n"
+    }
+
+    "echo request parameters" in {
+      val result = doPOST("http://localhost:9000/", "pName1=pValue1&pName2=pValue2")
+      result must (equalTo("<h1>Hello pValue2 pValue1</h1>\n") or equalTo("<h1>Hello pValue2 pValue1</h1>\n")) 
+    }
   }
 
-  def shouldReturnHello: Unit = {
+
+}
+
+trait WebClient {
+  def readFromInputStream(inputStream: InputStream): String = {
     try {
-      startWebServer(WinterBootstrap.process)
-      val result = makeRequest("http://localhost:9000/")
-      "<h1>Hello</h1>\n" must_== result
+      val scanner = new Scanner(inputStream)
+      scanner.useDelimiter("\\z")
+      scanner.next
     }
     finally {
-      shutDownWebServer()
+      inputStream.close()
     }
   }
 
-  def makeRequest(uri:String) = {
-    val url = new java.net.URL(uri)
-    val scanner = new Scanner(url.openStream)
-    scanner.useDelimiter("\\z")
-    scanner.next
+  def readResponse(url: URL): String = {
+    val inputStream: InputStream = url.openStream
+    readFromInputStream(inputStream)
   }
 
+  def doGET(uri:String) = {
+    val url = new URL(uri)
+    readResponse(url)
+  }
+
+  def doPOST(uri:String, body:String) = {
+    val url = new URL(uri)
+    val cnn = url.openConnection.asInstanceOf[HttpURLConnection]
+    cnn.setDoOutput(true)
+
+    val out = new PrintWriter(new OutputStreamWriter(cnn.getOutputStream))
+    out.print(body)
+    out.close()
+
+    readFromInputStream(cnn.getInputStream)
+  }
 }
 
 trait WebServer {
