@@ -20,7 +20,7 @@ class WinterEndToEndSpecification extends Specification with WebServer with WebC
     
     "service a simple web request" in {
         val result = doGET("http://localhost:9000/")
-        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>\n"
+        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
     }
 
     "echo request parameters" in {

@@ -14,6 +14,19 @@ class Request(httpServletRequest:HttpServletRequest) {
     for ((key, values) <- original) yield (key -> values.mkString(""))
   }
 }
-class Response(httpServletResponse:HttpServletResponse) {
+
+trait Response {
+  def writeTo(sink:Sink)
+}
+
+class Output(httpServletResponse:HttpServletResponse) {
+  def stream = new Sink {
+    val javaOutputStream = httpServletResponse.getOutputStream
+    def writeBytes(bytes:Array[Byte]) = javaOutputStream.write(bytes)
+  }
   def body(what:String) = httpServletResponse.getWriter.println(what)
+}
+
+trait Sink {
+  def writeBytes(bytes:Array[Byte])
 }
