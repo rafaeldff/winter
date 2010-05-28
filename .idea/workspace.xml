@@ -97,7 +97,7 @@
       <file leaf-file-name="WinterBootstrap.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +106,7 @@
       <file leaf-file-name="Winter.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Winter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.16806723">
+            <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.20949721">
               <folding />
             </state>
           </provider>
@@ -115,7 +115,7 @@
       <file leaf-file-name="WinterServletBridge.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterServletBridge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+            <state line="11" column="2" selection-start="294" selection-end="348" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,9 +155,9 @@
         <option value="$PROJECT_DIR$/src/WinterEndToEndSpec.scala" />
         <option value="$PROJECT_DIR$/../../workspaceScala/Hoops/src/test/SpecsAsTest.scala" />
         <option value="$PROJECT_DIR$/../../workspaceScala/Hoops/src/test/HoopsSpecs.scala" />
-        <option value="$PROJECT_DIR$/src/WinterServletBridge.scala" />
         <option value="$PROJECT_DIR$/src/WinterBootstrap.scala" />
         <option value="$PROJECT_DIR$/src/WinterEndToEndSpecification.scala" />
+        <option value="$PROJECT_DIR$/src/WinterServletBridge.scala" />
         <option value="$PROJECT_DIR$/src/Winter.scala" />
       </list>
     </option>
@@ -200,6 +200,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,7 +247,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,9 +262,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -534,9 +534,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290008" sideWeight="0.66556835" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290008" sideWeight="0.6672158" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32289952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32125205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -591,23 +591,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/test/SpecsAsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/test/HoopsSpecs.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="21" selection-start="2970" selection-end="2970" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="98" column="21" selection-start="2970" selection-end="2970" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/BlockBodyElements.scala">
@@ -619,9 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/BodyElements.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="115" selection-end="115" vertical-scroll-proportion="0.21008404">
-          <folding />
-        </state>
+        <state line="5" column="12" selection-start="115" selection-end="115" vertical-scroll-proportion="0.21008404" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/HtmlDocument.scala">
@@ -638,23 +625,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/Base.scala">
+    <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/collection/mutable/Builder.class">
+    <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterServletBridge.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+        <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -668,21 +648,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
+    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/collection/mutable/Builder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+        <state line="2" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/Base.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinterServletBridge.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="294" selection-end="348" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Winter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.16806723">
+        <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.20949721">
           <folding />
         </state>
       </provider>
