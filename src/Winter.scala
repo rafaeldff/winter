@@ -1,8 +1,14 @@
 package winter
-
+     
 import _root_.hoops.Hoops
-import javax.servlet.http.{HttpServletResponse, HttpServletRequest}
-import collection.JavaConversions
+
+trait Response {
+  def writeTo(sink:Sink)
+}
+
+trait Request {
+  def parameters: scala.collection.Map[String,String] 
+}
 
 object Winter {
   case class TextResponse(text:String) extends Response {
@@ -20,7 +26,11 @@ object Winter {
       html(head(title("Hello World")), body(h1("Hello " + toWhom)))
     }
     
-    HtmlResponse(htmlSource(request.parameters.values.mkString(" ")));
+    def parameterValues(request:Request): String = {
+      request.parameters.values.mkString(" ")
+    }
+    
+    ((parameterValues _) andThen (htmlSource _) andThen (HtmlResponse.apply _))(request)
   }
 }
 

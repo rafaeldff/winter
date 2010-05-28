@@ -3,7 +3,7 @@ package winter
 import javax.servlet._
 import http._
 
-class Request(httpServletRequest:HttpServletRequest) {
+class ServletApiRequest(httpServletRequest:HttpServletRequest) extends Request {
   import _root_.java.{util => ju}
   import scala.collection.JavaConversions._
   import scala.collection.Map
@@ -15,9 +15,7 @@ class Request(httpServletRequest:HttpServletRequest) {
   }
 }
 
-trait Response {
-  def writeTo(sink:Sink)
-}
+
 
 class Output(httpServletResponse:HttpServletResponse) {
   def stream = new Sink {
