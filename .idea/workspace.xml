@@ -76,24 +76,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringMatchers.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringMatchers.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBeHaveMatchers.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringBeHaveMatchers.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WinterBootstrap.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,7 +88,7 @@
       <file leaf-file-name="Winter.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Winter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.20949721">
+            <state line="27" column="37" selection-start="662" selection-end="662" vertical-scroll-proportion="0.36871508">
               <folding />
             </state>
           </provider>
@@ -625,34 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringBeHaveMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/collection/mutable/Builder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
@@ -674,9 +628,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringBeHaveMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.5248619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.04464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Winter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.20949721">
+        <state line="27" column="37" selection-start="662" selection-end="662" vertical-scroll-proportion="0.36871508">
           <folding />
         </state>
       </provider>
