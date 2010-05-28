@@ -10,6 +10,8 @@ trait Request {
   def parameters: scala.collection.Map[String,String] 
 }
 
+case class Parameter[T](value: T)
+
 object Winter {
   case class TextResponse(text:String) extends Response {
     def writeTo(sink:Sink) = sink.writeBytes(text.getBytes)
@@ -22,15 +24,15 @@ object Winter {
   def process(request:Request): Response = {
     import hoops.Hoops._
 
-    def htmlSource(toWhom:String): Element = {
-      html(head(title("Hello World")), body(h1("Hello " + toWhom)))
+    def htmlSource(toWhom:Parameter[String]): Element = {
+      html(head(title("Hello World")), body(h1("Hello " + toWhom.value)))
     }
     
-    def parameterValues(request:Request): String = {
-      request.parameters.values.mkString(" ")
-    }
+    def parameterValues[T](request:Request): Parameter[T] = new Parameter[T](
+      request.parameters.values.mkString(" ").asInstanceOf[T]
+    )
     
-    ((parameterValues _) andThen (htmlSource _) andThen (HtmlResponse.apply _))(request)
+    ((parameterValues[String] _) andThen htmlSource andThen HtmlResponse.apply)(request)
   }
 }
 
