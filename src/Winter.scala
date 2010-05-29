@@ -24,15 +24,19 @@ object Winter {
   def process(request:Request): Response = {
     import hoops.Hoops._
 
-    def htmlSource(toWhom:Parameter[String]): Element = {
-      html(head(title("Hello World")), body(h1("Hello " + toWhom.value)))
-    }
-    
-    def parameterValues[T](request:Request): Parameter[T] = new Parameter[T](
+    implicit val req:Request = request
+
+    implicit def parameterValues[T](implicit Request:Request): Parameter[T] = new Parameter[T](
       request.parameters.values.mkString(" ").asInstanceOf[T]
     )
-    
-    ((parameterValues[String] _) andThen htmlSource andThen HtmlResponse.apply)(request)
+
+    implicit def htmlSource(implicit toWhom:Parameter[String]):HtmlResponse =
+      HtmlResponse (
+        html(head(title("Hello World")),
+        body(h1("Hello " + toWhom.value)))
+      )
+
+    implicitly[HtmlResponse]
   }
 }
 
