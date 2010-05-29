@@ -10,7 +10,7 @@ trait Request {
   def parameters: scala.collection.Map[String,String] 
 }
 
-case class Parameter(value: String)
+case class Parameter[T](value: T)
 
 object Winter {
   case class TextResponse(text:String) extends Response {
@@ -24,11 +24,11 @@ object Winter {
   def process(request:Request): Response = {
     import hoops.Hoops._
 
-    implicit def parameterValues[R <% Request](request:R): Parameter = new Parameter(
-      request.parameters.values.mkString(" ")
+    implicit def parameterValues[T, R <% Request](request:R): Parameter[T] = new Parameter[T] (
+      request.parameters.values.mkString(" ").asInstanceOf[T]
     )
 
-    implicit def htmlSource[P <% Parameter](toWhom:P):HtmlResponse =
+    implicit def htmlSource[P <% Parameter[String]](toWhom:P):HtmlResponse =
       HtmlResponse (
         html(head(title("Hello World")),
         body(h1("Hello " + toWhom.value)))
