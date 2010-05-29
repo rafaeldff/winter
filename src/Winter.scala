@@ -22,6 +22,8 @@ trait Winter {
   implicit def parameterValues[T, R <% Request](request:R): Parameter[T] = new Parameter[T] (
     request.parameters.values.mkString(" ").asInstanceOf[T]
   )
+
+  def process(request:Request): Response
 }
 
 
