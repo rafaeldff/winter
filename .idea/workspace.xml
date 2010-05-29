@@ -70,8 +70,26 @@
       <file leaf-file-name="WinterEndToEndSpecification.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="14" column="10" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1275057191000" expanded="false" signature="7:543" placeholder="..." />
+                <marker date="1275057191000" expanded="true" signature="631:1197" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="1215:1983" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="1279:1444" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="1485:1577" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="1605:1659" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="1701:1981" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2001:3491" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2162:2546" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2206:2542" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2325:2536" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2637:2987" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2788:2895" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="2850:2889" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="3064:3142" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="3186:3488" placeholder="{...}" />
+                <marker date="1275057191000" expanded="true" signature="3417:3427" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +106,7 @@
       <file leaf-file-name="Winter.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Winter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="37" selection-start="662" selection-end="662" vertical-scroll-proportion="0.36871508">
+            <state line="29" column="48" selection-start="751" selection-end="751" vertical-scroll-proportion="0.7660167">
               <folding />
             </state>
           </provider>
@@ -182,7 +200,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,6 +244,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -244,9 +262,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -516,9 +534,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290008" sideWeight="0.6672158" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290008" sideWeight="0.66886324" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32125205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3196046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -583,9 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/BlockBodyElements.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.04411765">
-          <folding />
-        </state>
+        <state line="71" column="0" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.04411765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/BodyElements.scala">
@@ -595,70 +611,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/HtmlDocument.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0882353">
-          <folding />
-        </state>
+        <state line="2" column="42" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0882353" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/Hoops.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="57" selection-end="57" vertical-scroll-proportion="0.084033616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/collection/mutable/Builder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/Base.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterServletBridge.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="294" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="42" selection-start="57" selection-end="57" vertical-scroll-proportion="0.084033616" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringBeHaveMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.5248619">
-          <folding />
-        </state>
+        <state line="19" column="10" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.5248619" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../workspaceScala/Hoops/libs/specs_2.8.0.RC2-1.6.5-SNAPSHOT.jar!/org/specs/matcher/StringMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.04464286">
-          <folding />
-        </state>
+        <state line="1" column="121" selection-start="147" selection-end="147" vertical-scroll-proportion="0.04464286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinterServletBridge.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="294" selection-end="348" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/collection/mutable/Builder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workspaceScala/Hoops/src/hoops/Base.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="10" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1275057191000" expanded="false" signature="7:543" placeholder="..." />
+            <marker date="1275057191000" expanded="true" signature="631:1197" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="1215:1983" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="1279:1444" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="1485:1577" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="1605:1659" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="1701:1981" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2001:3491" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2162:2546" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2206:2542" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2325:2536" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2637:2987" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2788:2895" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="2850:2889" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="3064:3142" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="3186:3488" placeholder="{...}" />
+            <marker date="1275057191000" expanded="true" signature="3417:3427" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Winter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="37" selection-start="662" selection-end="662" vertical-scroll-proportion="0.36871508">
+        <state line="29" column="48" selection-start="751" selection-end="751" vertical-scroll-proportion="0.7660167">
           <folding />
         </state>
       </provider>
