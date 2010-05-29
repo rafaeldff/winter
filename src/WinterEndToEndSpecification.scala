@@ -14,7 +14,7 @@ import org.specs.{Specification}
 class WinterEndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
 
-  "Winter" should {
+  "An Winter Application" should {
     doBefore(startWebServer(WinterBootstrap.process))
     doAfter(shutDownWebServer)
     
