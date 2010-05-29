@@ -70,25 +70,24 @@
       <file leaf-file-name="WinterEndToEndSpecification.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+            <state line="32" column="13" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1275057191000" expanded="false" signature="7:543" placeholder="..." />
-                <marker date="1275057191000" expanded="true" signature="631:1197" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="1215:1983" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="1279:1444" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="1485:1577" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="1605:1659" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="1701:1981" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2001:3491" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2162:2546" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2206:2542" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2325:2536" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2637:2987" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2788:2895" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="2850:2889" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="3064:3142" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="3186:3488" placeholder="{...}" />
-                <marker date="1275057191000" expanded="true" signature="3417:3427" placeholder="{...}" />
+                <marker date="1275148319000" expanded="false" signature="7:543" placeholder="..." />
+                <marker date="1275148319000" expanded="true" signature="631:1212" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="1230:1998" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="1294:1459" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="1500:1592" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="1620:1674" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="1716:1996" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="2177:2561" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="2221:2557" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="2340:2551" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="2652:3002" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="2803:2910" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="2865:2904" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="3079:3157" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="3201:3503" placeholder="{...}" />
+                <marker date="1275148319000" expanded="true" signature="3432:3442" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,16 +96,25 @@
       <file leaf-file-name="WinterBootstrap.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+            <state line="7" column="40" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Winter.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Winter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Winter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="921" selection-end="921" vertical-scroll-proportion="1.0584959">
+            <state line="26" column="0" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnWinterApplication.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/AnWinterApplication.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,9 +164,11 @@
         <option value="$PROJECT_DIR$/../../workspaceScala/Hoops/src/test/SpecsAsTest.scala" />
         <option value="$PROJECT_DIR$/../../workspaceScala/Hoops/src/test/HoopsSpecs.scala" />
         <option value="$PROJECT_DIR$/src/WinterBootstrap.scala" />
-        <option value="$PROJECT_DIR$/src/WinterEndToEndSpecification.scala" />
         <option value="$PROJECT_DIR$/src/WinterServletBridge.scala" />
+        <option value="$PROJECT_DIR$/src/WinterEndToEndSpecification.scala" />
+        <option value="$PROJECT_DIR$/src/AnWinterApplication.scala" />
         <option value="$PROJECT_DIR$/src/Winter.scala" />
+        <option value="$PROJECT_DIR$/tests/AnWinterApplication.scala" />
       </list>
     </option>
   </component>
@@ -200,6 +210,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,8 +244,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WinterEndToEndSpecification.scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -244,9 +288,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,9 +304,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -521,11 +563,12 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1282" height="754" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1282" height="754" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -534,12 +577,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290008" sideWeight="0.66886324" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290008" sideWeight="0.6705107" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3196046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31795716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.6589786" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -579,11 +621,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/rt.jar!/java/util/Scanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="50" selection-start="3251" selection-end="3347" vertical-scroll-proportion="0.044247787" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../scala-beta/scala-2.8.0.RC2/lib/scala-library.jar!/scala/collection/JavaConversions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="22" selection-start="159" selection-end="159" vertical-scroll-proportion="0.05865922" />
@@ -631,7 +668,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WinterBootstrap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" />
+        <state line="7" column="40" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WinterServletBridge.scala">
@@ -651,32 +690,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WinterEndToEndSpecification.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+        <state line="32" column="13" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1275057191000" expanded="false" signature="7:543" placeholder="..." />
-            <marker date="1275057191000" expanded="true" signature="631:1197" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="1215:1983" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="1279:1444" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="1485:1577" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="1605:1659" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="1701:1981" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2001:3491" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2162:2546" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2206:2542" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2325:2536" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2637:2987" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2788:2895" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="2850:2889" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="3064:3142" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="3186:3488" placeholder="{...}" />
-            <marker date="1275057191000" expanded="true" signature="3417:3427" placeholder="{...}" />
+            <marker date="1275148319000" expanded="false" signature="7:543" placeholder="..." />
+            <marker date="1275148319000" expanded="true" signature="631:1212" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="1230:1998" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="1294:1459" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="1500:1592" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="1620:1674" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="1716:1996" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="2177:2561" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="2221:2557" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="2340:2551" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="2652:3002" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="2803:2910" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="2865:2904" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="3079:3157" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="3201:3503" placeholder="{...}" />
+            <marker date="1275148319000" expanded="true" signature="3432:3442" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Winter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="921" selection-end="921" vertical-scroll-proportion="1.0584959">
+        <state line="26" column="0" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AnWinterApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
