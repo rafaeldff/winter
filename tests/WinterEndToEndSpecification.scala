@@ -1,21 +1,22 @@
-import _root_.winter.WinterBootstrap
+package winter
+
 import concurrent.SyncVar
 import java.io.{InputStream, PrintWriter, OutputStreamWriter}
 import java.lang.{Throwable, String}
 import java.net.{HttpURLConnection, URL}
 import java.util.Scanner
 import javax.servlet.http.{HttpServletResponse, HttpServletRequest}
-import org.eclipse.jetty.server.{Request, Server}
 import org.eclipse.jetty.server.handler.AbstractHandler
 import org.eclipse.jetty.util.component.LifeCycle
 import org.eclipse.jetty.util.component.LifeCycle.Listener
 import org.specs.{Specification}
+import org.eclipse.jetty.server.{Request=>JettyRequest, Server}
 
 class WinterEndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
 
   "An Winter Application" should {
-    doBefore(startWebServer(WinterBootstrap.process))
+    doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
     doAfter(shutDownWebServer)
     
     "service a simple web request" in {
@@ -73,7 +74,7 @@ trait WebServer {
 
   private def configureServer(handler: (HttpServletRequest, HttpServletResponse) => Unit): Unit = {
     server setHandler new AbstractHandler {
-      def handle(target: String, baseRequest: Request, request: HttpServletRequest, response: HttpServletResponse) = {
+      def handle(target: String, baseRequest: JettyRequest, request: HttpServletRequest, response: HttpServletResponse) = {
         response.setStatus(HttpServletResponse.SC_OK)
         response.setContentType("text/html;charset=utf-8")
 
