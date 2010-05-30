@@ -10,39 +10,48 @@ import org.eclipse.jetty.server.handler.AbstractHandler
 import org.eclipse.jetty.util.component.LifeCycle
 import org.eclipse.jetty.util.component.LifeCycle.Listener
 import org.specs.{Specification}
-import org.eclipse.jetty.server.{Request=>JettyRequest, Server}
+import org.eclipse.jetty.server.{Request => JettyRequest, Server}
 
 class EndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
 
-  "An Winter Application" should {
-    doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
-    doAfter(shutDownWebServer)
+  "Winter" should {
+    "support a simple web application" in {
+      doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
+      doAfter(shutDownWebServer)
 
-    "service a simple web request" in {
-      val result = doGET("http://localhost:9000/")
-      result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
+      "servicing a simple web request" in {
+        val result = doGET("http://localhost:9000/")
+        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
+      }
+
+      "echoing request parameters" in {
+        val result = doPOST("http://localhost:9000/", "pName1=parameterValue1&pName2=parameterValue2")
+        result must (include("parameterValue1") and include("parameterValue2"))
+      }
     }
 
-    "echo request parameters" in {
-      val result = doPOST("http://localhost:9000/", "pName1=parameterValue1&pName2=parameterValue2")
-      result must (include("parameterValue1") and include("parameterValue2"))
+    "support multiple web applications" in {
+      doAfter(shutDownWebServer)
+
+      "running one application" in {
+        startWebServer(WinterBootstrap.process(new Winter {
+          def process(request: Request) = TextResponse("some response")
+        }))
+
+        doGET("http://localhost:9000/") must_== "some response"
+      }
+
+      "running another application" in {
+        startWebServer(WinterBootstrap.process(new Winter {
+          def process(request: Request) = TextResponse("different response")
+        }))
+
+        doGET("http://localhost:9000/") must_== "different response"
+      }
     }
+
   }
-
-  "Another Winter Application" should {
-    doBefore(startWebServer(WinterBootstrap.process(new Winter {
-      def process(request: Request) = TextResponse("different response")
-    })))
-    doAfter(shutDownWebServer)
-    
-    "service a different web request" in {
-      val result = doGET("http://localhost:9000/")
-      result must_== "different response"
-    }
-  }
-
-
 }
 
 trait WebClient {
@@ -62,12 +71,12 @@ trait WebClient {
     readFromInputStream(inputStream)
   }
 
-  def doGET(uri:String) = {
+  def doGET(uri: String) = {
     val url = new URL(uri)
     readResponse(url)
   }
 
-  def doPOST(uri:String, body:String) = {
+  def doPOST(uri: String, body: String) = {
     val url = new URL(uri)
     val cnn = url.openConnection.asInstanceOf[HttpURLConnection]
     cnn.setDoOutput(true)
@@ -82,7 +91,7 @@ trait WebClient {
 
 trait WebServer {
   val port: Int;
-  private[WebServer] var server:Server = _
+  private[WebServer] var server: Server = _
 
   private def configureServer(handler: (HttpServletRequest, HttpServletResponse) => Unit): Unit = {
     server setHandler new AbstractHandler {
@@ -100,11 +109,11 @@ trait WebServer {
     log("Starting server")
 
     val done = new SyncVar[Unit]
-    
+
     server = new Server(port)
     server addLifeCycleListener new AbstractListener {
       override def lifeCycleStarted(lifeCycle: LifeCycle) = {
-        done set ()          
+        done set ()
       }
     }
     configureServer(handler)
@@ -114,7 +123,7 @@ trait WebServer {
     log("Server started")
   }
 
-  def log(message:String ) = println(message)
+  def log(message: String) = println(message)
 
   def shutDownWebServer() = {
     log("Shutting down...")
@@ -123,13 +132,17 @@ trait WebServer {
   }
 
   class AbstractListener extends Listener {
-      def lifeCycleStopped(lifeCycle: LifeCycle) = {}
-      def lifeCycleStopping(lifeCycle: LifeCycle) = {}
-      def lifeCycleFailure(lifeCycle: LifeCycle, p2: Throwable) = {}
-      def lifeCycleStarted(lifeCycle: LifeCycle) = {
+    def lifeCycleStopped(lifeCycle: LifeCycle) = {}
 
-      }
-      def lifeCycleStarting(lifeCycle: LifeCycle) = {}
+    def lifeCycleStopping(lifeCycle: LifeCycle) = {}
+
+    def lifeCycleFailure(lifeCycle: LifeCycle, p2: Throwable) = {}
+
+    def lifeCycleStarted(lifeCycle: LifeCycle) = {
+
     }
+
+    def lifeCycleStarting(lifeCycle: LifeCycle) = {}
+  }
 
 }
