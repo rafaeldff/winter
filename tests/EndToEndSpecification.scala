@@ -12,21 +12,33 @@ import org.eclipse.jetty.util.component.LifeCycle.Listener
 import org.specs.{Specification}
 import org.eclipse.jetty.server.{Request=>JettyRequest, Server}
 
-class WinterEndToEndSpecification extends Specification with WebServer with WebClient {
+class EndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
 
   "An Winter Application" should {
     doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
     doAfter(shutDownWebServer)
-    
+
     "service a simple web request" in {
-        val result = doGET("http://localhost:9000/")
-        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
+      val result = doGET("http://localhost:9000/")
+      result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
     }
 
     "echo request parameters" in {
       val result = doPOST("http://localhost:9000/", "pName1=parameterValue1&pName2=parameterValue2")
-      result must (include("parameterValue1") and include("parameterValue2"))  
+      result must (include("parameterValue1") and include("parameterValue2"))
+    }
+  }
+
+  "Another Winter Application" should {
+    doBefore(startWebServer(WinterBootstrap.process(new Winter {
+      def process(request: Request) = TextResponse("different response")
+    })))
+    doAfter(shutDownWebServer)
+    
+    "service a different web request" in {
+      val result = doGET("http://localhost:9000/")
+      result must_== "different response"
     }
   }
 
