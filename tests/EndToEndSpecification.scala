@@ -14,32 +14,32 @@ import org.eclipse.jetty.server.{Request => JettyRequest, Server}
 
 class EndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
-
+  val baseURI = "http://localhost:9000/"
+  
   "Winter" should {
-    "support a simple web application" in {
+    "run a simple web application" in {
       doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
-      doAfter(shutDownWebServer)
 
       "servicing a simple web request" in {
-        val result = doGET("http://localhost:9000/")
+        val result = get(baseURI)
         result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
       }
 
       "echoing request parameters" in {
-        val result = doPOST("http://localhost:9000/", "pName1=parameterValue1&pName2=parameterValue2")
+        val result = post(baseURI, "pName1=parameterValue1&pName2=parameterValue2")
         result must (include("parameterValue1") and include("parameterValue2"))
       }
+      
+      doAfter(shutDownWebServer)
     }
 
-    "support multiple web applications" in {
-      doAfter(shutDownWebServer)
-
+    "handle several web applications" in {
       "running one application" in {
         startWebServer(WinterBootstrap.process(new Winter {
           def process(request: Request) = TextResponse("some response")
         }))
 
-        doGET("http://localhost:9000/") must_== "some response"
+        get(baseURI) must_== "some response"
       }
 
       "running another application" in {
@@ -47,10 +47,11 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
           def process(request: Request) = TextResponse("different response")
         }))
 
-        doGET("http://localhost:9000/") must_== "different response"
+        get(baseURI) must_== "different response"
       }
-    }
 
+      doAfter(shutDownWebServer)      
+    }
   }
 }
 
@@ -71,12 +72,12 @@ trait WebClient {
     readFromInputStream(inputStream)
   }
 
-  def doGET(uri: String) = {
+  def get(uri: String) = {
     val url = new URL(uri)
     readResponse(url)
   }
 
-  def doPOST(uri: String, body: String) = {
+  def post(uri: String, body: String) = {
     val url = new URL(uri)
     val cnn = url.openConnection.asInstanceOf[HttpURLConnection]
     cnn.setDoOutput(true)

@@ -97,7 +97,7 @@
       <file leaf-file-name="EndToEndSpecification.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/EndToEndSpecification.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.9481865">
+            <state line="9" column="39" selection-start="370" selection-end="370" vertical-scroll-proportion="0.11873351">
               <folding />
             </state>
           </provider>
@@ -490,7 +490,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290008" sideWeight="0.6705107" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39868203" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31795716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31795716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -617,7 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/EndToEndSpecification.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.9481865">
+        <state line="9" column="39" selection-start="370" selection-end="370" vertical-scroll-proportion="0.11873351">
           <folding />
         </state>
       </provider>
