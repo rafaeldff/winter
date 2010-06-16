@@ -5,7 +5,12 @@ trait Response {
 }
 
 trait Request {
-  def parameters: scala.collection.Map[String,String] 
+  def parameters: scala.collection.Map[String,String]
+  def uri: String
+}
+
+object Path {
+  def unapply(request:Request): Option[String] = request.uri.split("/").lift(1)
 }
 
 case class Parameter[T](value: T)

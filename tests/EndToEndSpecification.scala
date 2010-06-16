@@ -16,6 +16,10 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
   val port = 9000
   val baseURI = "http://localhost:9000/"
   
+  def startApplication(application: Winter): Unit = {
+    startWebServer(WinterBootstrap.process(application))
+  }
+  
   "Winter" should {
     "run a simple web application" in {
       doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
@@ -35,23 +39,39 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
     "handle several web applications" in {
       "running one application" in {
-        startWebServer(WinterBootstrap.process(new Winter {
+        startApplication(new Winter {
           def process(request: Request) = TextResponse("some response")
-        }))
+        })
 
         get(baseURI) must_== "some response"
       }
 
       "running another application" in {
-        startWebServer(WinterBootstrap.process(new Winter {
+        startApplication(new Winter {
           def process(request: Request) = TextResponse("different response")
-        }))
+        })
 
         get(baseURI) must_== "different response"
       }
 
       doAfter(shutDownWebServer)      
     }
+
+    "enable routing" in {
+        "based on whole paths" in {
+          startApplication(ApplicationWithTwoPaths)
+
+          get(baseURI + "/pathA") must_== "from a"
+          get(baseURI + "/pathB") must_== "from b"
+        }
+      }
+  }
+}
+
+object ApplicationWithTwoPaths extends Winter {
+  def process(request: Request) = request match {
+    case Path("pathA") => TextResponse("from a")
+    case Path("pathB") => TextResponse("from b")
   }
 }
 

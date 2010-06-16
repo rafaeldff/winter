@@ -13,6 +13,8 @@ class ServletApiRequest(httpServletRequest:HttpServletRequest) extends Request {
     val original = httpServletRequest.getParameterMap.asInstanceOf[ju.Map[String,Array[String]]]
     for ((key, values) <- original) yield (key -> values.mkString(""))
   }
+
+  def uri = httpServletRequest.getRequestURI
 }
 
 
