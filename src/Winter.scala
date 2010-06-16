@@ -10,7 +10,8 @@ trait Request {
 }
 
 object Path {
-  def unapply(request:Request): Option[String] = request.uri.split("/").lift(1)
+  def unapplySeq(request:Request): Option[Seq[String]] =
+    Some(request.uri.split("/").drop(1))
 }
 
 case class Parameter[T](value: T)

@@ -92,7 +92,7 @@
       <file leaf-file-name="RoutingSpecification.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/RoutingSpecification.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="38" selection-start="943" selection-end="943" vertical-scroll-proportion="0.92167103">
+            <state line="37" column="32" selection-start="938" selection-end="938" vertical-scroll-proportion="0.84334207">
               <folding />
             </state>
           </provider>
@@ -811,7 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/RoutingSpecification.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="943" selection-end="943" vertical-scroll-proportion="0.92167103">
+        <state line="37" column="32" selection-start="938" selection-end="938" vertical-scroll-proportion="0.84334207">
           <folding />
         </state>
       </provider>
