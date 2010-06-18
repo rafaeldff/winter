@@ -61,8 +61,8 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
         "based on whole paths" in {
           startApplication(ApplicationWithTwoPaths)
 
-          get(baseURI + "/pathA") must_== "from a"
-          get(baseURI + "/pathB") must_== "from b"
+          get(baseURI + "pathA") must_== "from a"
+          get(baseURI + "pathB") must_== "from b"
         }
       }
   }

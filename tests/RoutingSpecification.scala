@@ -22,23 +22,40 @@ class RoutingSpecification extends Specification {
         case WinterPath("pathComponent") => true
       }
     }
+
     "match multiple path components agaisnt a multiple path component URI" in {
       val request = requestForUri("/first/second")
       request must beLike {
         case WinterPath("first", "second") => true
       }
     }
+
     "not match a path component agaist an URI with a differing path component" in {
       val request = requestForUri("/someOtherThing");
       request must not(beLike {
         case WinterPath("somePath") => true
       })
     }
+    
     "not match empty pattern agains nonempty URI" in {
       val request = requestForUri("/something");
       request must not(beLike {
         case WinterPath() => true
       })
+    }
+
+    "match a prefix of an URI" in {
+      val request = requestForUri("/the/prefix/the/rest/")
+      request must beLike {
+        case WinterPath("the", "prefix", rest@_*) => rest must_== Seq("the", "rest") 
+      }
+    }
+
+    "capture a path segment" in {
+      val request = requestForUri("/before/42/after/")
+      request must beLike {
+        case WinterPath("before", segment, "after") => segment.toInt must_== 42
+      }
     }
   }
   
