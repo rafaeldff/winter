@@ -76,6 +76,7 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
 
     "work with marshalled request parameters" in {
+      skip("implementing...")
       doAfter(shutDownWebServer)
       
       startApplication(ApplicationReadingParameters)

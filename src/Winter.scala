@@ -25,7 +25,7 @@ trait Winter {
     def writeTo(sink:Sink) = new TextResponse(element.toHtmlString).writeTo(sink)
   }
 
-  implicit def parameterValues[T, R <% Request](request:R): Parameter[T] = new Parameter[T] (
+  implicit def parameterValues[T, R <% Request](request:R): Parameter[T] = new Parameter[T] ( 
     request.parameters.values.mkString(" ").asInstanceOf[T]
   )
 
