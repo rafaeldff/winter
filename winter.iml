@@ -57,19 +57,18 @@
         <jarDirectory url="file://$MODULE_DIR$/libs/jsr" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="Hoops" />
     <orderEntry type="module-library">
       <library name="IogiWinter">
         <CLASSES>
           <root url="file://$MODULE_DIR$/libs/iogi" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../Iogi/src" />
-        </SOURCES>
+        <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/libs/iogi" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="Hoops" />
+    <orderEntry type="module" module-name="Iogi" />
   </component>
 </module>
 
