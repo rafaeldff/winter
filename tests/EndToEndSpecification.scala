@@ -20,7 +20,7 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
     startWebServer(WinterBootstrap.process(application))
   }
   
-  "Winter" should {
+  "Winter" should {                                       
     "run a simple web application" in {
       doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
 
@@ -59,21 +59,40 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
     "enable routing" in {
         "based on whole paths" in {
+          object ApplicationWithTwoPaths extends Winter {
+            def process(request: Request):Response = request match {
+              case winter.Path("pathA") => TextResponse("from a")
+              case winter.Path("pathB") => TextResponse("from b")
+            }
+          }          
           startApplication(ApplicationWithTwoPaths)
 
           get(baseURI + "pathA") must_== "from a"
           get(baseURI + "pathB") must_== "from b"
         }
+
+        doAfter(shutDownWebServer)
       }
+
+
+    "work with marshalled request parameters" in {
+      doAfter(shutDownWebServer)
+      
+      startApplication(ApplicationReadingParameters)
+      get(baseURI + "?foo.str=asdf") must_== "got asdf"
+    }
   }
 }
 
-object ApplicationWithTwoPaths extends Winter {
-  def process(request: Request) = request match {
-    case Path("pathA") => TextResponse("from a")
-    case Path("pathB") => TextResponse("from b")
+object ApplicationReadingParameters extends Winter {
+  implicit def withFoo[P <% Parameter[Foo]](param:P):Response= new TextResponse(param.value.str)
+
+  def process(request: Request) =  {
+    request:Response
   }
 }
+
+case class Foo(str:String)
 
 trait WebClient {
   def readFromInputStream(inputStream: InputStream): String = {
