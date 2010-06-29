@@ -86,7 +86,7 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 }
 
 object ApplicationReadingParameters extends Winter {
-  implicit def withFoo[P <% Parameter[Foo]](param:P):Response= new TextResponse(param.value.str)
+  implicit def withFoo[P <% ParameterObjects[Foo]](param:P):Response= new TextResponse(param.value.str)
 
   def process(request: Request) =  {
     request:Response

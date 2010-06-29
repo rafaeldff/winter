@@ -1,5 +1,7 @@
 package winter
 
+import _root_.winter.iogi.IogiScala
+
 trait Response {
   def writeTo(sink:Sink)
 }
@@ -14,9 +16,9 @@ object Path {
     Some(request.uri.split("/").drop(1))
 }
 
-case class Parameter[T](value: T)
+case class ParameterObjects[T](value: T)
 
-trait Winter {
+trait Winter extends IogiScala {
   case class TextResponse(text:String) extends Response {
     def writeTo(sink:Sink) = sink.writeBytes(text.getBytes)
   }
@@ -25,11 +27,11 @@ trait Winter {
     def writeTo(sink:Sink) = new TextResponse(element.toHtmlString).writeTo(sink)
   }
 
-  implicit def parameterValues[T, R <% Request](request:R): Parameter[T] = new Parameter[T] ( 
+  implicit def parameterValues[T, R <% Request](request:R): ParameterObjects[T] = new ParameterObjects[T] (
     request.parameters.values.mkString(" ").asInstanceOf[T]
   )
 
-  def process(request:Request): Response
+  def process(request:Request): Response                          
 }
 
 
