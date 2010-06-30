@@ -20,24 +20,40 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
     startWebServer(WinterBootstrap.process(application))
   }
   
-  "Winter" should {                                       
+  "Winter" should {
     "run a simple web application" in {
-      doBefore(startWebServer(WinterBootstrap.process(AnWinterApplication)))
+      doBefore(startWebServer(WinterBootstrap.process(ASimpleWinterApplication)))
+      doAfter(shutDownWebServer)
 
       "servicing a simple web request" in {
         val result = get(baseURI)
-        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello </h1></body></html>"
+        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello Nasty World!</h1></body></html>"
       }
-
-      "echoing request parameters" in {
-        val result = post(baseURI, "pName1=parameterValue1&pName2=parameterValue2")
-        result must (include("parameterValue1") and include("parameterValue2"))
-      }
-      
-      doAfter(shutDownWebServer)
     }
 
+    "run an application that reads request parameters" in {
+      doBefore(startWebServer(WinterBootstrap.process(EchoApplication)))
+      doAfter(shutDownWebServer)
+      
+      "echoing request parameters" in {
+        val result = post(baseURI, "pName=pValue")
+        result must include("pValue")
+      }
+    }
+
+    "mashall request parameters" in {
+      doBefore(startApplication(ApplicationReadingParameters))
+      doAfter(shutDownWebServer)
+      
+      "instantiating custom classes" in {
+        get(baseURI + "?foo.str=asdf") must_== "got asdf"
+      }
+    }
+
+
     "handle several web applications" in {
+      doAfter(shutDownWebServer)
+
       "running one application" in {
         startApplication(new Winter {
           def process(request: Request) = TextResponse("some response")
@@ -53,40 +69,46 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
         get(baseURI) must_== "different response"
       }
-
-      doAfter(shutDownWebServer)      
     }
 
     "enable routing" in {
-        "based on whole paths" in {
-          object ApplicationWithTwoPaths extends Winter {
-            def process(request: Request):Response = request match {
-              case winter.Path("pathA") => TextResponse("from a")
-              case winter.Path("pathB") => TextResponse("from b")
-            }
-          }          
-          startApplication(ApplicationWithTwoPaths)
-
-          get(baseURI + "pathA") must_== "from a"
-          get(baseURI + "pathB") must_== "from b"
-        }
-
-        doAfter(shutDownWebServer)
-      }
-
-
-    "work with marshalled request parameters" in {
-      skip("implementing...")
       doAfter(shutDownWebServer)
       
-      startApplication(ApplicationReadingParameters)
-      get(baseURI + "?foo.str=asdf") must_== "got asdf"
+      "based on whole paths" in {
+        object ApplicationWithTwoPaths extends Winter {
+          def process(request: Request): Response = request match {
+            case winter.Path("pathA") => TextResponse("from a")
+            case winter.Path("pathB") => TextResponse("from b")
+          }
+        }
+        startApplication(ApplicationWithTwoPaths)
+
+        get(baseURI + "pathA") must_== "from a"
+        get(baseURI + "pathB") must_== "from b"
+      }
     }
   }
 }
 
+object EchoApplication extends Winter {
+  import hoops.Hoops._
+
+  implicit def htmlSource[P <% ParameterObjects](parameters:P):HtmlResponse =
+    HtmlResponse (
+      html(head(title("Echo")),
+      body(h1(parameters[String]('pName))))
+    )
+
+
+  def process(request: Request) = {
+    request:Response
+  }
+}
+
+
 object ApplicationReadingParameters extends Winter {
-  implicit def withFoo[P <% ParameterObjects[Foo]](param:P):Response= new TextResponse(param.value.str)
+  implicit def withFoo[P <% ParameterObjects](param:P):Response =
+    new TextResponse("got " + param[Foo]('foo).str)
 
   def process(request: Request) =  {
     request:Response

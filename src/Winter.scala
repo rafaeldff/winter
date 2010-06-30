@@ -16,7 +16,9 @@ object Path {
     Some(request.uri.split("/").drop(1))
 }
 
-case class ParameterObjects[T](value: T)
+trait ParameterObjects {
+  def apply[T: Manifest](targetName:Symbol):T
+}
 
 trait Winter extends IogiScala {
   case class TextResponse(text:String) extends Response {
@@ -26,10 +28,6 @@ trait Winter extends IogiScala {
   case class HtmlResponse(element: hoops.Hoops.Element) extends Response {
     def writeTo(sink:Sink) = new TextResponse(element.toHtmlString).writeTo(sink)
   }
-
-  implicit def parameterValues[T, R <% Request](request:R): ParameterObjects[T] = new ParameterObjects[T] (
-    request.parameters.values.mkString(" ").asInstanceOf[T]
-  )
 
   def process(request:Request): Response                          
 }
