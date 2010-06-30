@@ -19,11 +19,11 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
   def startApplication(application: Winter): Unit = {
     startWebServer(WinterBootstrap.process(application))
   }
-  
+
   "Winter" should {
+    doAfter(shutDownWebServer)
     "run a simple web application" in {
       doBefore(startWebServer(WinterBootstrap.process(ASimpleWinterApplication)))
-      doAfter(shutDownWebServer)
 
       "servicing a simple web request" in {
         val result = get(baseURI)
@@ -33,8 +33,7 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
     "run an application that reads request parameters" in {
       doBefore(startWebServer(WinterBootstrap.process(EchoApplication)))
-      doAfter(shutDownWebServer)
-      
+
       "echoing request parameters" in {
         val result = post(baseURI, "pName=pValue")
         result must include("pValue")
@@ -43,8 +42,7 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
     "mashall request parameters" in {
       doBefore(startApplication(ApplicationReadingParameters))
-      doAfter(shutDownWebServer)
-      
+
       "instantiating custom classes" in {
         get(baseURI + "?foo.str=asdf") must_== "got asdf"
       }
@@ -52,7 +50,6 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
 
     "handle several web applications" in {
-      doAfter(shutDownWebServer)
 
       "running one application" in {
         startApplication(new Winter {
@@ -72,8 +69,6 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
     }
 
     "enable routing" in {
-      doAfter(shutDownWebServer)
-      
       "based on whole paths" in {
         object ApplicationWithTwoPaths extends Winter {
           def process(request: Request): Response = request match {
@@ -201,9 +196,7 @@ trait WebServer {
 
     def lifeCycleFailure(lifeCycle: LifeCycle, p2: Throwable) = {}
 
-    def lifeCycleStarted(lifeCycle: LifeCycle) = {
-
-    }
+    def lifeCycleStarted(lifeCycle: LifeCycle) = {}
 
     def lifeCycleStarting(lifeCycle: LifeCycle) = {}
   }
