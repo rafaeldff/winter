@@ -16,9 +16,6 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
   val port = 9000
   val baseURI = "http://localhost:9000/"
   
-  def startApplication(application: Winter): Unit = {
-    startWebServer(WinterBootstrap.process(application))
-  }
 
   "Winter" should {
     doAfter(shutDownWebServer)
@@ -150,6 +147,10 @@ trait WebClient {
 trait WebServer {
   val port: Int;
   private[WebServer] var server: Server = _
+
+  def startApplication(application: Winter): Unit = {
+    startWebServer(WinterBootstrap.process(application))
+  }
 
   private def configureServer(handler: (HttpServletRequest, HttpServletResponse) => Unit): Unit = {
     server setHandler new AbstractHandler {
