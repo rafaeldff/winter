@@ -7,3 +7,6 @@ lib_managed/
 src_managed/
 project/boot/
 javarebel.lic
+javarebel.stats
+jrebel.info
+
