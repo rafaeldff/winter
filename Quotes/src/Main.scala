@@ -12,7 +12,7 @@ object Main extends WebServer {
   val port = 8080
   
   def main(args:Array[String]) = startApplication(new Winter {
-    def process(request: Request) = TextResponse("some foo response")
+    def process(request: Request) = TextResponse("FooBar!?")
   })
 }
 
