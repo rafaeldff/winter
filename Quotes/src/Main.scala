@@ -2,18 +2,19 @@ package winter.samples.Quotes
 
 import winter._
 import javax.servlet.http.{HttpServletResponse, HttpServletRequest}
-import org.eclipse.jetty.server.handler.AbstractHandler
-import org.eclipse.jetty.server.{Server, Request => JettyRequest}
 import concurrent.SyncVar
 import org.eclipse.jetty.util.component.LifeCycle.Listener
 import org.eclipse.jetty.util.component.LifeCycle
+import org.eclipse.jetty.server.{Server, Request => JettyRequest}
+import org.eclipse.jetty.server.handler.{DefaultHandler, HandlerList, ResourceHandler, AbstractHandler}
+import org.eclipse.jetty.webapp.WebAppContext
 
 object Main extends WebServer {
   val port = 8080
-  
-  def main(args:Array[String]) = startApplication(new Winter {
-    def process(request: Request) = TextResponse("FooBar!?")
-  })
+
+  def main(args:Array[String]) = {
+    startApplication(QuotesApplication)
+  }
 }
 
 trait WebServer {
@@ -25,18 +26,44 @@ trait WebServer {
   }
 
   private def configureServer(handler: (HttpServletRequest, HttpServletResponse) => Unit): Unit = {
-    server setHandler new AbstractHandler {
-      def handle(target: String, baseRequest: JettyRequest, request: HttpServletRequest, response: HttpServletResponse) = {
-        response.setStatus(HttpServletResponse.SC_OK)
-        response.setContentType("text/html;charset=utf-8")
+//    val winterHandler = new AbstractHandler {
+//      def handle(target: String, baseRequest: JettyRequest, request: HttpServletRequest, response: HttpServletResponse) = {
+//        response.setStatus(HttpServletResponse.SC_OK)
+//
+//        try {handler(request, response)}
+//        finally {baseRequest.setHandled(true)}
+//      }
+//    }
+//    val staticFilesHandler = new ResourceHandler
+//    staticFilesHandler.setResourceBase("./webapp")
+//
+//    val handlerList = new HandlerList
+//    handlerList.setHandlers(Array(staticFilesHandler, winterHandler, new DefaultHandler))
 
-        try {handler(request, response)}
-        finally {baseRequest.setHandled(true)}
-      }
+    val webAppContext = new WebAppContext();
+    webAppContext.setDescriptor("./webapp/WEB-INF/web.xml");
+    webAppContext.setResourceBase("./webapp");
+    webAppContext.setContextPath("/");
+    webAppContext.setParentLoaderPriority(true);
+
+
+    server setHandler webAppContext
+  }
+
+  def setupCurrentDir() = {
+    import java.io._
+    val current = new File(".")
+    if (!current.getAbsolutePath.contains("Quotes")) {
+      val quotesDir = new File(current, "Quotes")
+      if (quotesDir.exists)
+        System.setProperty("user.dir", quotesDir.getAbsolutePath)
     }
+
   }
 
   def startWebServer(handler: (HttpServletRequest, HttpServletResponse) => Unit): Unit = {
+    setupCurrentDir()
+
     log("Starting server")
 
     val done = new SyncVar[Unit]
@@ -53,6 +80,8 @@ trait WebServer {
     done.get
     log("Server started")
   }
+
+
 
   def log(message: String) = println(message)
 

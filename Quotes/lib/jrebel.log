@@ -1,0 +1,491 @@
+-------- HEADER --------
+VERSION 2
+-------- EOF HEADER --------
+[11] Searching for Javassist resource java.lang.reflect.Proxy
+[12] Searching for Javassist resource java.lang.reflect.Proxy
+[12] Found Javassist class file:/ByteArrayClassPath/java/lang/reflect/Proxy.class for java.lang.reflect.Proxy
+[12] Searching for Javassist class java.lang.reflect.Proxy
+[26] Searching for Javassist resource java.lang.Class
+[27] Searching for Javassist resource java.lang.Class
+[35] Searching for Javassist resource java.lang.ClassLoader
+[44] Searching for Javassist resource java.lang.String
+[46] Searching for Javassist resource Class
+[49] Searching for Javassist resource java.io.Serializable
+[50] Searching for Javassist class java.io.Serializable
+[51] Searching for Javassist resource java.lang.Object
+[51] Searching for Javassist class java.lang.Object
+[54] Searching for Javassist resource com
+[54] Searching for Javassist resource java.lang.com
+[54] Searching for Javassist resource com.zeroturnaround
+[55] Searching for Javassist resource com.zeroturnaround.javarebel
+[55] Searching for Javassist resource com.zeroturnaround.javarebel.eC
+[55] Searching for Javassist class com.zeroturnaround.javarebel.eC
+[390] Added include managed filter com.zeroturnaround.javarebel.jo@1ed7ac
+[390] Added exclude managed filter com.zeroturnaround.javarebel.gD@5388b5
+[390] Added exclude managed filter com.zeroturnaround.javarebel.bQ@79ac92
+[392] Processing archive '/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar'...
+[577] Verified plugin 'com.zeroturnaround.javarebel.aspectj.AspectJPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/aspectj-jr-plugin-3.1.jar
+[577] Found dependent plugin 'com.zeroturnaround.javarebel.aspectj.AspectJPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/aspectj-jr-plugin-3.1.jar
+[591] Verified plugin 'org.zeroturnaround.javarebel.integration.catalina.CatalinaPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/catalina-jr-plugin-3.1.jar
+[591] Found dependent plugin 'org.zeroturnaround.javarebel.integration.catalina.CatalinaPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/catalina-jr-plugin-3.1.jar
+[604] Verified plugin 'org.zeroturnaround.jrebel.facelets.FaceletsPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/facelets-jr-plugin-3.1.jar
+[604] Found dependent plugin 'org.zeroturnaround.jrebel.facelets.FaceletsPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/facelets-jr-plugin-3.1.jar
+[620] Verified plugin 'org.zeroturnaround.javarebel.integration.fileservlet.FileServletPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/fileservlet-jr-plugin-3.1.jar
+[620] Found dependent plugin 'org.zeroturnaround.javarebel.integration.fileservlet.FileServletPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/fileservlet-jr-plugin-3.1.jar
+[640] Verified plugin 'org.zeroturnaround.jrebel.glassfish.GlassFishPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/glassfish-jr-plugin-3.1.jar
+[641] Found dependent plugin 'org.zeroturnaround.jrebel.glassfish.GlassFishPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/glassfish-jr-plugin-3.1.jar
+[654] Verified plugin 'org.zeroturnaround.jrebel.groovy.GroovyPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/groovy-jr-plugin-3.1.jar
+[654] Found dependent plugin 'org.zeroturnaround.jrebel.groovy.GroovyPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/groovy-jr-plugin-3.1.jar
+[668] Verified plugin 'com.zeroturnaround.javarebel.guice.GuicePlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/guice-jr-plugin-3.1.jar
+[668] Found dependent plugin 'com.zeroturnaround.javarebel.guice.GuicePlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/guice-jr-plugin-3.1.jar
+[695] Verified plugin 'org.zeroturnaround.javarebel.integration.hibernate.HibernatePlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/hibernate-jr-plugin-3.1.jar
+[695] Found dependent plugin 'org.zeroturnaround.javarebel.integration.hibernate.HibernatePlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/hibernate-jr-plugin-3.1.jar
+[712] Verified plugin 'org.zeroturnaround.jrebel.ibatis.IbatisPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/ibatis-jr-plugin-3.1.jar
+[712] Found dependent plugin 'org.zeroturnaround.jrebel.ibatis.IbatisPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/ibatis-jr-plugin-3.1.jar
+[731] Verified plugin 'org.zeroturnaround.javarebel.integration.jasper.JasperPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jasper-jr-plugin-3.1.jar
+[731] Found dependent plugin 'org.zeroturnaround.javarebel.integration.jasper.JasperPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jasper-jr-plugin-3.1.jar
+[746] Verified plugin 'se.knifhen.javarebel.plugin.StripesPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/javarebel-stripes-plugin-1.0.11.jar
+[746] Found dependent plugin 'se.knifhen.javarebel.plugin.StripesPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/javarebel-stripes-plugin-1.0.11.jar
+[768] Verified plugin 'org.zeroturnaround.javarebel.jboss.JbossPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jboss-jr-plugin-3.1.jar
+[768] Found dependent plugin 'org.zeroturnaround.javarebel.jboss.JbossPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jboss-jr-plugin-3.1.jar
+[822] Verified plugin 'org.zeroturnaround.javarebel.integration.servlet.ServletIntegrationPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jr-servlet-integration-3.1.jar
+[822] Found dependent plugin 'org.zeroturnaround.javarebel.integration.servlet.ServletIntegrationPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jr-servlet-integration-3.1.jar
+[835] Verified plugin 'org.zeroturnaround.javarebel.integration.log4j.Log4jPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/log4j-jr-plugin-3.1.jar
+[835] Found dependent plugin 'org.zeroturnaround.javarebel.integration.log4j.Log4jPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/log4j-jr-plugin-3.1.jar
+[856] Verified plugin 'org.zeroturnaround.jrebel.mojarra.MojarraPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/mojarra-jr-plugin-3.1.jar
+[856] Found dependent plugin 'org.zeroturnaround.jrebel.mojarra.MojarraPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/mojarra-jr-plugin-3.1.jar
+[877] Verified plugin 'org.zeroturnaround.jrebel.integration.openjpa.OpenJPAPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/openjpa-jr-plugin-3.1.jar
+[877] Found dependent plugin 'org.zeroturnaround.jrebel.integration.openjpa.OpenJPAPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/openjpa-jr-plugin-3.1.jar
+[888] Verified plugin 'org.zeroturnaround.jrebel.seam.SeamPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/seam-jr-plugin-3.1.jar
+[888] Found dependent plugin 'org.zeroturnaround.jrebel.seam.SeamPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/seam-jr-plugin-3.1.jar
+[936] Verified plugin 'org.zeroturnaround.javarebel.integration.spring.SpringPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/spring-jr-plugin-3.1.jar
+[936] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.SpringPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/spring-jr-plugin-3.1.jar
+[953] Verified plugin 'org.zeroturnaround.javarebel.integration.spring.SpringMvcPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/spring-mvc-jr-plugin-3.1.jar
+[953] Found dependent plugin 'org.zeroturnaround.javarebel.integration.spring.SpringMvcPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/spring-mvc-jr-plugin-3.1.jar
+[970] Verified plugin 'org.zeroturnaround.javarebel.integration.struts.Struts1Plugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/struts1-jr-plugin-3.1.jar
+[970] Found dependent plugin 'org.zeroturnaround.javarebel.integration.struts.Struts1Plugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/struts1-jr-plugin-3.1.jar
+[988] Verified plugin 'org.zeroturnaround.javarebel.integration.struts2.Struts2Plugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/struts2-jr-plugin-3.1.jar
+[988] Found dependent plugin 'org.zeroturnaround.javarebel.integration.struts2.Struts2Plugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/struts2-jr-plugin-3.1.jar
+[1001] Verified plugin 'org.zeroturnaround.javarebel.integration.tapestry4.Tapestry4Plugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/tapestry4-jr-plugin-3.1.jar
+[1001] Found dependent plugin 'org.zeroturnaround.javarebel.integration.tapestry4.Tapestry4Plugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/tapestry4-jr-plugin-3.1.jar
+[1023] Verified plugin 'org.zeroturnaround.jrebel.integration.toplink.TopLinkPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/toplink-jr-plugin-3.1.jar
+[1023] Found dependent plugin 'org.zeroturnaround.jrebel.integration.toplink.TopLinkPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/toplink-jr-plugin-3.1.jar
+[1040] Verified plugin 'org.zeroturnaround.jrebel.integration.toplink.spring.TopLinkSpringPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/toplink-spring-jr-plugin-3.1.jar
+[1040] Found dependent plugin 'org.zeroturnaround.jrebel.integration.toplink.spring.TopLinkSpringPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/toplink-spring-jr-plugin-3.1.jar
+[1053] Verified plugin 'org.zeroturnaround.javarebel.velocity.VelocityPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/velocity-jr-plugin-3.1.jar
+[1054] Found dependent plugin 'org.zeroturnaround.javarebel.velocity.VelocityPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/velocity-jr-plugin-3.1.jar
+[1077] Verified plugin 'org.zeroturnaround.jrebel.weblogic.WeblogicPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/weblogic-jr-plugin-3.1.jar
+[1077] Found dependent plugin 'org.zeroturnaround.jrebel.weblogic.WeblogicPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/weblogic-jr-plugin-3.1.jar
+[1088] Verified plugin 'org.zeroturnaround.javarebel.webobjects.WebObjectsPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/webobjects-jr-plugin-3.1.jar
+[1088] Found dependent plugin 'org.zeroturnaround.javarebel.webobjects.WebObjectsPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/webobjects-jr-plugin-3.1.jar
+[1105] Verified plugin 'org.zeroturnaround.jrebel.websphere.WebspherePlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/websphere-jr-plugin-3.1.jar
+[1105] Found dependent plugin 'org.zeroturnaround.jrebel.websphere.WebspherePlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/websphere-jr-plugin-3.1.jar
+[1120] Verified plugin 'org.zeroturnaround.jrebel.weld.WeldPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/weld-jr-plugin-3.1.jar
+[1120] Found dependent plugin 'org.zeroturnaround.jrebel.weld.WeldPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/weld-jr-plugin-3.1.jar
+[1133] Verified plugin 'org.zeroturnaround.javarebel.wicket.WicketPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/wicket-jr-plugin-3.1.jar
+[1133] Found dependent plugin 'org.zeroturnaround.javarebel.wicket.WicketPlugin' from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/wicket-jr-plugin-3.1.jar
+[1172] Now: Wed Jul 07 02:25:42 BRT 2010
+[1191] License information: {Name=Rafael Ferreira, uid=7c48aacb-c3cf-40a1-b7ec-0f04122488f4, limited=scala, Product=JavaRebel, Seats=, Email=public@rafaelferreira.net, limitedFrom=Thu Jul 01 21:50:03 BRT 2010, override=false, purchaseDate=Sat Jul 03 21:50:03 BRT 2010, Comment=, Organization=Personal, limitedUntil=Sun Jul 03 21:50:03 BRT 2011}
+[1193] 
+[1193] #############################################################
+[1193] 
+[1193]  JRebel 3.1 (201006011508)
+[1194]  (c) Copyright ZeroTurnaround OU, Estonia, Tartu.
+[1194] 
+[1202]  Over the last 3 days JRebel prevented 
+[1203]  at least 14 redeploys/restarts saving you about 0.6 hours.
+[1203] 
+[1203]  This product is licensed to Personal
+[1211]  until July 3, 2011
+[1212]  for up to  developer seats on site. 
+[1212] 
+[1212]  The following plugins are disabled at the moment: 
+[1213]  * Log4j plugin (set -Drebel.log4j-plugin=true to enable)
+[1214] Reloads full configuration of log4j
+[1215]  * Stripes plugin 1.0.11 (set -Drebel.stripes_plugin=true to enable)
+[1215] Adds reloading of Stripes ActionBeans.
+[1215]  * TopLink Spring Plugin (set -Drebel.toplink_spring_plugin=true to enable)
+[1215] Reloads SeesionFactory when configuration changes
+[1215]  * TopLink and EclipseLink Plugin (set -Drebel.toplink_plugin=true to enable)
+[1216] Reloads EntityManagerFactory when configuration changes
+[1216]  * WebObjects Plugin (set -Drebel.webobjects_plugin=true to enable)
+[1216] WebObjects JRebel Plugin
+[1216] 
+[1216] #############################################################
+[1216] 
+[1220] #Wed Jul 07 02:25:42 BRT 2010
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/i386
+java.vm.version=14.3-b01
+java.vm.vendor=Sun Microsystems Inc.
+java.vendor.url=http\://java.sun.com/
+path.separator=\:
+java.vm.name=Java HotSpot(TM) Server VM
+file.encoding.pkg=sun.io
+sun.java.launcher=SUN_STANDARD
+user.country=US
+sun.os.patch.level=unknown
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/home/rafaelf/tcc/winter
+java.runtime.version=1.6.0_17-b04
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs=/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/endorsed
+os.arch=i386
+java.io.tmpdir=/tmp
+line.separator=\n
+java.vm.specification.vendor=Sun Microsystems Inc.
+os.name=Linux
+rebel.log=true
+sun.jnu.encoding=UTF-8
+java.library.path=/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/i386/server\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/i386\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/../lib/i386\:/usr/java/packages/lib/i386\:/lib\:/usr/lib
+java.specification.name=Java Platform API Specification
+java.class.version=50.0
+sun.management.compiler=HotSpot Tiered Compilers
+os.version=2.6.24-24-generic
+user.home=/home/rafaelf
+user.timezone=Brazil/East
+java.awt.printerjob=sun.print.PSPrinterJob
+file.encoding=UTF-8
+java.specification.version=1.6
+java.class.path=/home/rafaelf/bin/sbt-launch-0.7.4.jar\:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar
+user.name=rafaelf
+java.vm.specification.version=1.0
+java.home=/usr/lib/jvm/java-6-sun-1.6.0.17/jre
+sun.arch.data.model=32
+user.language=en
+java.specification.vendor=Sun Microsystems Inc.
+java.vm.info=mixed mode
+java.version=1.6.0_17
+java.ext.dirs=/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/ext\:/usr/java/packages/lib/ext
+sun.boot.class.path=/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/resources.jar\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/rt.jar\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/sunrsasign.jar\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/jsse.jar\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/jce.jar\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/charsets.jar\:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/classes\:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar
+java.vendor=Sun Microsystems Inc.
+file.separator=/
+java.vendor.url.bug=http\://java.sun.com/cgi-bin/bugreport.cgi
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+sun.desktop=gnome
+sun.cpu.isalist=
+
+[1256] Rebel runtime under 'sun.misc.Launcher$AppClassLoader@480457' created.
+[1260] sun.misc.Launcher$AppClassLoader@480457 is using native source com.zeroturnaround.javarebel.fR@590510
+[1380] Rebel runtime under 'sun.misc.Launcher$ExtClassLoader@14fe5c' created.
+[1381] sun.misc.Launcher$ExtClassLoader@14fe5c is using native source com.zeroturnaround.javarebel.fR@d38976
+[1381] sun.misc.Launcher$ExtClassLoader@14fe5c toString(): sun.misc.Launcher$ExtClassLoader@14fe5c
+[1381] sun.misc.Launcher$ExtClassLoader@14fe5c URLs: [file:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/ext/sunpkcs11.jar, file:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/ext/dnsns.jar, file:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/ext/sunjce_provider.jar, file:/usr/lib/jvm/java-6-sun-1.6.0.17/jre/lib/ext/localedata.jar]
+[1403] Started plugin org.zeroturnaround.javarebel.integration.IntegrationPlugin from /home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar
+[1439] sun.misc.Launcher$AppClassLoader@480457 toString(): sun.misc.Launcher$AppClassLoader@480457
+[1439] sun.misc.Launcher$AppClassLoader@480457 URLs: [file:/home/rafaelf/bin/sbt-launch-0.7.4.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar]
+[1439] sun.misc.Launcher$AppClassLoader@480457 parents: sun.misc.Launcher$ExtClassLoader@14fe5c
+[1525] sun.misc.Launcher$AppClassLoader@480457 found resource: 'sbt/sbt.boot.properties' from 'jar:file:/home/rafaelf/bin/sbt-launch-0.7.4.jar!/sbt/sbt.boot.properties'.
+[1677] Rebel runtime under 'java.net.URLClassLoader@1bde3d2' created.
+[1677] java.net.URLClassLoader@1bde3d2 is using native source com.zeroturnaround.javarebel.fR@856d3b
+[1677] java.net.URLClassLoader@1bde3d2 toString(): java.net.URLClassLoader@1bde3d2
+[1678] java.net.URLClassLoader@1bde3d2 URLs: [file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/lib/scala-compiler.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/lib/scala-library.jar]
+[1678] java.net.URLClassLoader@1bde3d2 parents: xsbt.boot.BootFilteredLoader@1c67b54, sun.misc.Launcher$AppClassLoader@480457, sun.misc.Launcher$ExtClassLoader@14fe5c
+[1710] Rebel runtime under 'java.net.URLClassLoader@ef0cdb' created.
+[1710] java.net.URLClassLoader@ef0cdb is using native source com.zeroturnaround.javarebel.fR@140243b
+[1710] java.net.URLClassLoader@ef0cdb toString(): java.net.URLClassLoader@ef0cdb
+[1710] java.net.URLClassLoader@ef0cdb URLs: [file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/launcher-interface-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/jsch-0.1.31.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compile_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/control_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/test-interface-0.5.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/classpath_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy-2.1.0.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/io_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/xsbti/interface-0.7.4.jar]
+[1711] java.net.URLClassLoader@ef0cdb parents: java.net.URLClassLoader@1bde3d2, xsbt.boot.BootFilteredLoader@1c67b54, sun.misc.Launcher$AppClassLoader@480457, sun.misc.Launcher$ExtClassLoader@14fe5c
+[2003] JRebel-Update: Server response: '3.1'.
+[2003] JRebel-Update: Deleted javarebel-msg
+[2080] java.net.URLClassLoader@1bde3d2 found resource: 'compiler.properties' from 'jar:file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/lib/scala-compiler.jar!/compiler.properties'.
+[2177] Rebel runtime under 'java.net.URLClassLoader@fc9e7e' created.
+[2178] java.net.URLClassLoader@fc9e7e is using native source com.zeroturnaround.javarebel.fR@20ca8b
+[2178] java.net.URLClassLoader@fc9e7e toString(): java.net.URLClassLoader@fc9e7e
+[2178] java.net.URLClassLoader@fc9e7e URLs: [file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/control_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/classpath_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/build/target/scala_2.7.7/classes/, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/launcher-interface-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/io_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy-2.1.0.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compile_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/test-interface-0.5.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/xsbti/interface-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/jsch-0.1.31.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy_2.7.7-0.7.4.jar]
+[2178] java.net.URLClassLoader@fc9e7e parents: java.net.URLClassLoader@ef0cdb, java.net.URLClassLoader@1bde3d2, xsbt.boot.BootFilteredLoader@1c67b54, sun.misc.Launcher$AppClassLoader@480457, sun.misc.Launcher$ExtClassLoader@14fe5c
+[2607] java.net.URLClassLoader@fc9e7e instrumented class 'WinterProject' from  'file:/home/rafaelf/tcc/winter/project/build/target/scala_2.7.7/classes/WinterProject.class'.
+[3102] java.net.URLClassLoader@fc9e7e instrumented class 'WinterProject$Quotes' from  'file:/home/rafaelf/tcc/winter/project/build/target/scala_2.7.7/classes/WinterProject$Quotes.class'.
+[3452] java.net.URLClassLoader@fc9e7e instrumented class 'WinterProject$WinterCore' from  'file:/home/rafaelf/tcc/winter/project/build/target/scala_2.7.7/classes/WinterProject$WinterCore.class'.
+[3771] Rebel runtime under 'java.net.URLClassLoader@1004a1a' created.
+[3771] java.net.URLClassLoader@1004a1a is using native source com.zeroturnaround.javarebel.fR@13d4c49
+[3771] java.net.URLClassLoader@1004a1a toString(): java.net.URLClassLoader@1004a1a
+[3771] java.net.URLClassLoader@1004a1a URLs: [file:/home/rafaelf/tcc/winter/project/boot/scala-2.8.0.RC6/lib/scala-compiler.jar, file:/home/rafaelf/tcc/winter/project/boot/scala-2.8.0.RC6/lib/scala-library.jar]
+[3771] java.net.URLClassLoader@1004a1a parents: xsbt.boot.BootFilteredLoader@1c67b54, sun.misc.Launcher$AppClassLoader@480457, sun.misc.Launcher$ExtClassLoader@14fe5c
+[3873] java.net.URLClassLoader@fc9e7e instrumented class 'WinterProject$$anonfun$core$1' from  'file:/home/rafaelf/tcc/winter/project/build/target/scala_2.7.7/classes/WinterProject$$anonfun$core$1.class'.
+[4001] java.net.URLClassLoader@fc9e7e instrumented class 'WinterProject$$anonfun$quotes$1' from  'file:/home/rafaelf/tcc/winter/project/build/target/scala_2.7.7/classes/WinterProject$$anonfun$quotes$1.class'.
+[4835] java.net.URLClassLoader@ef0cdb found resources: 'xsbt.version.properties' from '[jar:file:/home/rafaelf/tcc/winter/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/xsbti/interface-0.7.4.jar!/xsbt.version.properties]'.
+[4847] sun.misc.Launcher$AppClassLoader@480457 found resource: 'jline/CandidateListCompletionHandler.properties' from 'jar:file:/home/rafaelf/bin/sbt-launch-0.7.4.jar!/jline/CandidateListCompletionHandler.properties'.
+[4848] Watching bundle jline/CandidateListCompletionHandler.properties
+[4848] sun.misc.Launcher$AppClassLoader@480457 found resource: 'jline/CandidateListCompletionHandler.properties' from 'jar:file:/home/rafaelf/bin/sbt-launch-0.7.4.jar!/jline/CandidateListCompletionHandler.properties'.
+[4868] sun.misc.Launcher$AppClassLoader@480457 found resource: 'jline/keybindings.properties' from 'jar:file:/home/rafaelf/bin/sbt-launch-0.7.4.jar!/jline/keybindings.properties'.
+[8132] sun.misc.Launcher$AppClassLoader@480457 found resource: 'jline/keybindings.properties' from 'jar:file:/home/rafaelf/bin/sbt-launch-0.7.4.jar!/jline/keybindings.properties'.
+[9746] Rebel runtime under 'java.net.URLClassLoader@633b88' created.
+[9746] java.net.URLClassLoader@633b88 is using native source com.zeroturnaround.javarebel.fR@1bf496b
+[9746] java.net.URLClassLoader@633b88 toString(): java.net.URLClassLoader@633b88
+[9746] java.net.URLClassLoader@633b88 URLs: [file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-webapp-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/iogi/google-collect-1.0.jar, file:/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/, file:/home/rafaelf/tcc/winter/libs/iogi/paranamer-1.5.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-servlet-7.0.0.v20091005.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-io-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-continuation-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-util-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-servlets-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-webapp-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-continuation-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-http-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-http-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/resources/, file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar, file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/runtime/derby-10.2.2.0.jar, file:/home/rafaelf/tcc/winter/libs/jsr/servlet-api-2.5.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/hoops/hoops_2.8.0.RC2-0.5.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-xml-7.0.0.v20091005.jar, file:/home/rafaelf/tcc/winter/libs/iogi/mirror-1.5.1.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-servlets-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-security-7.0.0.v20091005.jar, file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/resources/, file:/home/rafaelf/tcc/winter/libs/iogi/iogi-0.8.2.jar, file:/home/rafaelf/tcc/winter/Quotes/lib/servlet-api-2.5.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-server-7.0.2.v20100331.jar, file:/home/rafaelf/tcc/winter/libs/jetty/jetty-io-7.0.2.v20100331.jar]
+[9746] java.net.URLClassLoader@633b88 parents: java.net.URLClassLoader@1004a1a, xsbt.boot.BootFilteredLoader@1c67b54, sun.misc.Launcher$AppClassLoader@480457, sun.misc.Launcher$ExtClassLoader@14fe5c
+[9765] Found rebel.xml resource 'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/resources/rebel.xml' from 'com.zeroturnaround.javarebel.fR@1bf496b'.
+[9766] rebel.xml contents: <?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
+
+	<classpath>
+		<!--<dir name="/home/rafaelf/tcc/winter/out/production/Quotes"></dir>-->
+		<dir name="/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes"></dir>
+	</classpath>
+
+    <war dir="/home/rafaelf/tcc/winter/Quotes/webapp" />
+</application>
+
+[9808] Native root URL found: file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/resources/
+[9808] Processing resource configuration [Resources war=[/home/rafaelf/tcc/winter/Quotes/webapp] classpath=[Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes]]]
+[9809] JRebel: Directory '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes' will be monitored for changes.
+[9810] JRebel: Directory '/home/rafaelf/tcc/winter/Quotes/webapp' will be monitored for changes.
+[9810] Found source for the class path: MultiUrlResourceSource [Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []], WAR Dir [/home/rafaelf/tcc/winter/Quotes/webapp]] (fallback: default)
+[9810] Found source for the servlet context: Servlet resource source [WAR Dir [/home/rafaelf/tcc/winter/Quotes/webapp]]
+[9810] Class Loader 'java.net.URLClassLoader@633b88' attached to the source 'MultiUrlResourceSource [Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []], WAR Dir [/home/rafaelf/tcc/winter/Quotes/webapp]]'.
+[9854] java.net.URLClassLoader@633b88 found resource: 'org/zeroturnaround/javarebel/integration/servlet/ServletIntegrationPlugin.class' from 'jrjar:jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar/plugins/jr-servlet-integration-3.1.jar/org/zeroturnaround/javarebel/integration/servlet/ServletIntegrationPlugin.class'.
+[9854] Started plugin org.zeroturnaround.javarebel.integration.servlet.ServletIntegrationPlugin from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/jr-servlet-integration-3.1.jar
+[9913] java.net.URLClassLoader@633b88 found resource: 'org/zeroturnaround/javarebel/integration/fileservlet/FileServletPlugin.class' from 'jrjar:jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar/plugins/fileservlet-jr-plugin-3.1.jar/org/zeroturnaround/javarebel/integration/fileservlet/FileServletPlugin.class'.
+[9913] Started plugin org.zeroturnaround.javarebel.integration.fileservlet.FileServletPlugin from jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar!/plugins/fileservlet-jr-plugin-3.1.jar
+[9920] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.Main' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/Main.class'.
+[9925] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Winter.class' found for resource 'winter/Winter.class'.
+[9940] java.net.URLClassLoader@633b88 instrumented class 'winter.Winter' from  'Virtual Resource [winter/Winter.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[9940] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/iogi/IogiScala.class' found for resource 'winter/iogi/IogiScala.class'.
+[9940] java.net.URLClassLoader@633b88 instrumented class 'winter.iogi.IogiScala' from  'Virtual Resource [winter/iogi/IogiScala.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[9961] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.Main$' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/Main$.class'.
+[9963] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.WebServer' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/WebServer.class'.
+[9969] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.WebServer$class' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/WebServer$class.class'.
+[9974] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.QuotesApplication$' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/QuotesApplication$.class'.
+[9976] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/iogi/IogiScala$class.class' found for resource 'winter/iogi/IogiScala$class.class'.
+[9978] java.net.URLClassLoader@633b88 instrumented class 'winter.iogi.IogiScala$class' from  'Virtual Resource [winter/iogi/IogiScala$class.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[9979] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Winter$class.class' found for resource 'winter/Winter$class.class'.
+[9981] java.net.URLClassLoader@633b88 instrumented class 'winter.Winter$class' from  'Virtual Resource [winter/Winter$class.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[10062] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.Quote' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/Quote.class'.
+[10204] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.WebServer$$anonfun$startApplication$1' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/WebServer$$anonfun$startApplication$1.class'.
+[10321] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.WebServer$AbstractListener' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/WebServer$AbstractListener.class'.
+[10325] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.WebServer$$anon$1' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/WebServer$$anon$1.class'.
+[10338] Searching for Javassist resource org.eclipse.jetty.server.handler.ContextHandler
+[10338] Searching for Javassist resource org.eclipse.jetty.server.handler.ContextHandler
+[10338] Found Javassist class file:/ByteArrayClassPath/org/eclipse/jetty/server/handler/ContextHandler.class for org.eclipse.jetty.server.handler.ContextHandler
+[10338] Searching for Javassist class org.eclipse.jetty.server.handler.ContextHandler
+[10381] Searching for Javassist resource org.eclipse.jetty.util.resource.Resource
+[10382] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/resource/Resource.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/resource/Resource.class'.
+[10383] Searching for Javassist resource org.eclipse.jetty.util.Attributes
+[10383] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/Attributes.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/Attributes.class'.
+[10383] Searching for Javassist resource org.eclipse.jetty.server.Server$Graceful
+[10384] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/Server$Graceful.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/Server$Graceful.class'.
+[10384] Searching for Javassist class org.eclipse.jetty.util.Attributes
+[10385] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/Attributes.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/Attributes.class'.
+[10385] Searching for Javassist resource java.lang.Object
+[10385] Searching for Javassist class java.lang.Object
+[10386] Searching for Javassist class org.eclipse.jetty.server.Server$Graceful
+[10397] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/Server$Graceful.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/Server$Graceful.class'.
+[10397] Searching for Javassist resource org.eclipse.jetty.server.Handler
+[10398] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/Handler.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/Handler.class'.
+[10398] Searching for Javassist class org.eclipse.jetty.server.Handler
+[10398] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/Handler.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/Handler.class'.
+[10398] Searching for Javassist resource org.eclipse.jetty.util.component.LifeCycle
+[10399] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/component/LifeCycle.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/component/LifeCycle.class'.
+[10399] Searching for Javassist class org.eclipse.jetty.util.component.LifeCycle
+[10399] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/component/LifeCycle.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/component/LifeCycle.class'.
+[10400] Searching for Javassist resource org.eclipse.jetty.server.handler.ScopedHandler
+[10401] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/ScopedHandler.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/ScopedHandler.class'.
+[10401] Searching for Javassist class org.eclipse.jetty.server.handler.ScopedHandler
+[10401] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/ScopedHandler.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/ScopedHandler.class'.
+[10402] Searching for Javassist resource org.eclipse.jetty.server.handler.HandlerWrapper
+[10403] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/HandlerWrapper.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.class'.
+[10403] Searching for Javassist class org.eclipse.jetty.server.handler.HandlerWrapper
+[10403] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/HandlerWrapper.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.class'.
+[10404] Searching for Javassist resource org.eclipse.jetty.server.handler.AbstractHandlerContainer
+[10405] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/AbstractHandlerContainer.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/AbstractHandlerContainer.class'.
+[10405] Searching for Javassist class org.eclipse.jetty.server.handler.AbstractHandlerContainer
+[10405] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/AbstractHandlerContainer.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/AbstractHandlerContainer.class'.
+[10406] Searching for Javassist resource org.eclipse.jetty.server.HandlerContainer
+[10410] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/HandlerContainer.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/HandlerContainer.class'.
+[10410] Searching for Javassist class org.eclipse.jetty.server.HandlerContainer
+[10410] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/HandlerContainer.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/HandlerContainer.class'.
+[10410] Searching for Javassist resource org.eclipse.jetty.server.handler.AbstractHandler
+[10411] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/AbstractHandler.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/AbstractHandler.class'.
+[10411] Searching for Javassist class org.eclipse.jetty.server.handler.AbstractHandler
+[10411] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/server/handler/AbstractHandler.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-server-7.0.2.v20100331.jar!/org/eclipse/jetty/server/handler/AbstractHandler.class'.
+[10415] Searching for Javassist resource org.eclipse.jetty.util.component.AbstractLifeCycle
+[10415] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/component/AbstractLifeCycle.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/component/AbstractLifeCycle.class'.
+[10415] Searching for Javassist class org.eclipse.jetty.util.component.AbstractLifeCycle
+[10415] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/component/AbstractLifeCycle.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/component/AbstractLifeCycle.class'.
+[10417] Searching for Javassist resource org
+[10418] Searching for Javassist resource java.lang.org
+[10419] Searching for Javassist resource org.zeroturnaround
+[10420] Searching for Javassist resource org.zeroturnaround.javarebel
+[10421] Searching for Javassist resource org.zeroturnaround.javarebel.ServletIntegrationFactory
+[10422] Searching for Javassist class org.zeroturnaround.javarebel.ServletIntegrationFactory
+[10422] Searching for Javassist resource org.zeroturnaround.javarebel.ServletIntegration
+[10422] Searching for Javassist resource org.zeroturnaround.javarebel.RebelServletContext
+[10423] Searching for Javassist class org.zeroturnaround.javarebel.ServletIntegration
+[10426] Class 'org/eclipse/jetty/server/handler/ContextHandler' processed by 'org.zeroturnaround.javarebel.integration.servlet.jetty.JettyContextHandlerCBP@java.net.URLClassLoader@633b88'.
+[10446] Searching for Javassist resource org.eclipse.jetty.server.handler.ContextHandler$Context
+[10446] Searching for Javassist resource org.eclipse.jetty.server.handler.ContextHandler$Context
+[10446] Found Javassist class file:/ByteArrayClassPath/org/eclipse/jetty/server/handler/ContextHandler$Context.class for org.eclipse.jetty.server.handler.ContextHandler$Context
+[10446] Searching for Javassist class org.eclipse.jetty.server.handler.ContextHandler$Context
+[10448] Searching for Javassist resource java.lang.String
+[10448] Searching for Javassist resource java.net.URL
+[10449] Searching for Javassist resource RebelServletContext
+[10450] Searching for Javassist resource java.lang.RebelServletContext
+[10451] Searching for Javassist resource org.zeroturnaround.javarebel.RebelServletContext
+[10451] Searching for Javassist resource ServletIntegration
+[10452] Searching for Javassist resource java.lang.ServletIntegration
+[10457] Searching for Javassist resource org.zeroturnaround.javarebel.ServletIntegration
+[10457] Searching for Javassist resource javax.servlet.ServletContext
+[10458] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/ServletContext.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/ServletContext.class'.
+[10458] Searching for Javassist class javax.servlet.ServletContext
+[10458] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/ServletContext.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/ServletContext.class'.
+[10459] Searching for Javassist resource java.lang.Object
+[10459] Searching for Javassist class java.lang.Object
+[10460] Searching for Javassist resource ServletIntegrationFactory
+[10461] Searching for Javassist resource java.lang.ServletIntegrationFactory
+[10462] Searching for Javassist resource org.zeroturnaround.javarebel.ServletIntegrationFactory
+[10462] Searching for Javassist class org.zeroturnaround.javarebel.ServletIntegrationFactory
+[10463] Searching for Javassist class org.zeroturnaround.javarebel.ServletIntegration
+[10464] Searching for Javassist resource java.io.InputStream
+[10465] Searching for Javassist resource java.util.Set
+[10479] Class 'org/eclipse/jetty/server/handler/ContextHandler$Context' processed by 'org.zeroturnaround.javarebel.integration.generic.BaseServletContextImplClassBytecodeProcessor@null'.
+[10481] Searching for Javassist resource javax.servlet.ServletContext
+[10481] Searching for Javassist resource javax.servlet.ServletContext
+[10481] Found Javassist class file:/ByteArrayClassPath/javax/servlet/ServletContext.class for javax.servlet.ServletContext
+[10481] Searching for Javassist resource org.zeroturnaround.javarebel.RebelServletContext
+[10482] Searching for Javassist class javax.servlet.ServletContext
+[10482] Class 'javax/servlet/ServletContext' processed by 'org.zeroturnaround.javarebel.integration.servlet.ServletContextCBP@java.net.URLClassLoader@633b88'.
+[10606] Searching for Javassist resource org.eclipse.jetty.webapp.WebAppClassLoader
+[10606] Searching for Javassist resource org.eclipse.jetty.webapp.WebAppClassLoader
+[10606] Found Javassist class file:/ByteArrayClassPath/org/eclipse/jetty/webapp/WebAppClassLoader.class for org.eclipse.jetty.webapp.WebAppClassLoader
+[10606] Searching for Javassist class org.eclipse.jetty.webapp.WebAppClassLoader
+[10607] Searching for Javassist resource java.lang.String
+[10608] Searching for Javassist resource java.net.URLClassLoader
+[10608] Searching for Javassist class java.net.URLClassLoader
+[10609] Searching for Javassist resource java.security.SecureClassLoader
+[10609] Searching for Javassist class java.security.SecureClassLoader
+[10610] Searching for Javassist resource java.lang.ClassLoader
+[10610] Searching for Javassist class java.lang.ClassLoader
+[10646] Searching for Javassist resource java.lang.Object
+[10661] Searching for Javassist class java.lang.Object
+[10661] Searching for Javassist resource IntegrationFactory
+[10663] Searching for Javassist resource java.lang.IntegrationFactory
+[10664] Searching for Javassist resource org.zeroturnaround.javarebel.IntegrationFactory
+[10664] Searching for Javassist class org.zeroturnaround.javarebel.IntegrationFactory
+[10665] Searching for Javassist resource org.zeroturnaround.javarebel.Integration
+[10665] Searching for Javassist class org.zeroturnaround.javarebel.Integration
+[10666] Searching for Javassist resource org.eclipse.jetty.util.resource.Resource
+[10666] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/resource/Resource.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/resource/Resource.class'.
+[10668] Class 'org/eclipse/jetty/webapp/WebAppClassLoader' processed by 'org.zeroturnaround.javarebel.integration.jetty.EclipseJettyWebappClassLoaderCBP@null'.
+[10707] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/web-app_2_2.dtd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/web-app_2_2.dtd'.
+[10708] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/web-app_2_3.dtd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/web-app_2_3.dtd'.
+[10709] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/j2ee_1_4.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/j2ee_1_4.xsd'.
+[10710] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/web-app_2_4.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/web-app_2_4.xsd'.
+[10711] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/web-app_2_5.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/web-app_2_5.xsd'.
+[10715] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/XMLSchema.dtd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/XMLSchema.dtd'.
+[10716] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/xml.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/xml.xsd'.
+[10717] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/j2ee_web_services_client_1_1.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/j2ee_web_services_client_1_1.xsd'.
+[10718] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/javaee_web_services_client_1_2.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/javaee_web_services_client_1_2.xsd'.
+[10719] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/datatypes.dtd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/datatypes.dtd'.
+[10722] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/jsp_2_0.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/jsp_2_0.xsd'.
+[10723] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/resources/jsp_2_1.xsd' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/resources/jsp_2_1.xsd'.
+[10723] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/webapp/webdefault.xml' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jetty-webapp-7.0.2.v20100331.jar!/org/eclipse/jetty/webapp/webdefault.xml'.
+[10985] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/http/mime.properties' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-http-7.0.2.v20100331.jar!/org/eclipse/jetty/http/mime.properties'.
+[10994] Watching bundle org/eclipse/jetty/http/mime.properties
+[10994] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/http/mime.properties' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-http-7.0.2.v20100331.jar!/org/eclipse/jetty/http/mime.properties'.
+[11026] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/http/encoding.properties' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-http-7.0.2.v20100331.jar!/org/eclipse/jetty/http/encoding.properties'.
+[11036] Watching bundle org/eclipse/jetty/http/encoding.properties
+[11036] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/http/encoding.properties' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-http-7.0.2.v20100331.jar!/org/eclipse/jetty/http/encoding.properties'.
+[11128] Searching for Javassist resource org.eclipse.jetty.servlet.DefaultServlet
+[11128] Searching for Javassist resource org.eclipse.jetty.servlet.DefaultServlet
+[11128] Found Javassist class file:/ByteArrayClassPath/org/eclipse/jetty/servlet/DefaultServlet.class for org.eclipse.jetty.servlet.DefaultServlet
+[11170] Searching for Javassist class org.eclipse.jetty.servlet.DefaultServlet
+[11172] Searching for Javassist resource org.zeroturnaround.javarebel.integration.fileservlet.FileServlet
+[11173] java.net.URLClassLoader@633b88 found resource: 'org/zeroturnaround/javarebel/integration/fileservlet/FileServlet.class' from 'jrjar:jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar/plugins/fileservlet-jr-plugin-3.1.jar/org/zeroturnaround/javarebel/integration/fileservlet/FileServlet.class'.
+[11175] Searching for Javassist resource ServletIntegration
+[11184] Searching for Javassist resource java.lang.ServletIntegration
+[11194] Searching for Javassist resource org.zeroturnaround.javarebel.ServletIntegration
+[11194] Searching for Javassist resource org.eclipse.jetty.util.resource.ResourceFactory
+[11195] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/resource/ResourceFactory.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/resource/ResourceFactory.class'.
+[11195] Searching for Javassist class org.eclipse.jetty.util.resource.ResourceFactory
+[11195] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/util/resource/ResourceFactory.class' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-util-7.0.2.v20100331.jar!/org/eclipse/jetty/util/resource/ResourceFactory.class'.
+[11196] Searching for Javassist resource java.lang.Object
+[11196] Searching for Javassist class java.lang.Object
+[11201] Searching for Javassist resource javax.servlet.http.HttpServlet
+[11202] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/http/HttpServlet.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class'.
+[11202] Searching for Javassist class javax.servlet.http.HttpServlet
+[11202] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/http/HttpServlet.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class'.
+[11204] Searching for Javassist resource java.io.Serializable
+[11204] Searching for Javassist class java.io.Serializable
+[11204] Searching for Javassist resource javax.servlet.GenericServlet
+[11205] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/GenericServlet.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/GenericServlet.class'.
+[11205] Searching for Javassist class javax.servlet.GenericServlet
+[11205] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/GenericServlet.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/GenericServlet.class'.
+[11206] Searching for Javassist resource javax.servlet.Servlet
+[11207] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/Servlet.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/Servlet.class'.
+[11207] Searching for Javassist resource javax.servlet.ServletConfig
+[11208] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/ServletConfig.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/ServletConfig.class'.
+[11208] Searching for Javassist class javax.servlet.Servlet
+[11208] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/Servlet.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/Servlet.class'.
+[11216] Searching for Javassist class javax.servlet.ServletConfig
+[11216] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/ServletConfig.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/ServletConfig.class'.
+[11216] Searching for Javassist resource ServletIntegrationFactory
+[11217] Searching for Javassist resource java.lang.ServletIntegrationFactory
+[11221] Searching for Javassist resource org.zeroturnaround.javarebel.ServletIntegrationFactory
+[11222] Searching for Javassist class org.zeroturnaround.javarebel.ServletIntegrationFactory
+[11222] Searching for Javassist resource RebelServletContext
+[11223] Searching for Javassist resource java.lang.RebelServletContext
+[11233] Searching for Javassist resource org.zeroturnaround.javarebel.RebelServletContext
+[11234] Searching for Javassist resource org.zeroturnaround.javarebel.RebelServletConextFacade
+[11234] Searching for Javassist class org.zeroturnaround.javarebel.RebelServletConextFacade
+[11234] Searching for Javassist class org.zeroturnaround.javarebel.ServletIntegration
+[11235] Searching for Javassist resource LoggerFactory
+[11240] Searching for Javassist resource java.lang.LoggerFactory
+[11241] Searching for Javassist resource org.zeroturnaround.javarebel.LoggerFactory
+[11241] Searching for Javassist class org.zeroturnaround.javarebel.LoggerFactory
+[11242] Searching for Javassist resource org.zeroturnaround.javarebel.Logger
+[11242] Searching for Javassist resource MiscUtil
+[11243] Searching for Javassist resource java.lang.MiscUtil
+[11244] Searching for Javassist resource org.zeroturnaround.javarebel.MiscUtil
+[11246] Searching for Javassist resource org.zeroturnaround.javarebel.integration.util.MiscUtil
+[11246] Searching for Javassist class org.zeroturnaround.javarebel.integration.util.MiscUtil
+[11246] Searching for Javassist resource java.lang.Class
+[11247] Searching for Javassist class org.zeroturnaround.javarebel.RebelServletContext
+[11261] Searching for Javassist class org.zeroturnaround.javarebel.Logger
+[11269] Searching for Javassist resource java.lang.StringBuffer
+[11269] Searching for Javassist class java.lang.StringBuffer
+[11271] Searching for Javassist resource java.lang.String
+[11271] Searching for Javassist class java.lang.String
+[11282] Searching for Javassist class org.zeroturnaround.javarebel.integration.fileservlet.FileServlet
+[11282] java.net.URLClassLoader@633b88 found resource: 'org/zeroturnaround/javarebel/integration/fileservlet/FileServlet.class' from 'jrjar:jar:file:/home/rafaelf/tcc/winter/Quotes/lib/jrebel.jar/plugins/fileservlet-jr-plugin-3.1.jar/org/zeroturnaround/javarebel/integration/fileservlet/FileServlet.class'.
+[11283] Searching for Javassist resource Throwable
+[11293] Searching for Javassist resource java.lang.Throwable
+[11295] Searching for Javassist resource javax.servlet.http.HttpServletRequest
+[11304] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/http/HttpServletRequest.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/http/HttpServletRequest.class'.
+[11304] Searching for Javassist resource javax.servlet.http.HttpServletResponse
+[11305] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/http/HttpServletResponse.class' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/http/HttpServletResponse.class'.
+[11319] Class 'org/eclipse/jetty/servlet/DefaultServlet' processed by 'org.zeroturnaround.javarebel.integration.fileservlet.DefaultServletCBP@java.net.URLClassLoader@633b88'.
+[11350] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/LocalStrings.properties' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/LocalStrings.properties'.
+[11351] Watching bundle javax/servlet/LocalStrings.properties
+[11356] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/LocalStrings.properties' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/LocalStrings.properties'.
+[11364] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/http/LocalStrings.properties' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/http/LocalStrings.properties'.
+[11364] Watching bundle javax/servlet/http/LocalStrings.properties
+[11364] java.net.URLClassLoader@633b88 found resource: 'javax/servlet/http/LocalStrings.properties' from 'jar:file:/home/rafaelf/tcc/winter/Quotes/lib_managed/scala_2.8.0.RC6/provided/servlet-api-2.5.jar!/javax/servlet/http/LocalStrings.properties'.
+[11387] org.eclipse.jetty.servlet.DefaultServlet@187a8e0: Servlet Context org.eclipse.jetty.servlet.ServletContextHandler$Context@327236 has replaced resources: false
+[11392] Rebel runtime under 'org.eclipse.jetty.webapp.WebAppClassLoader@1d0eb0b' created.
+[11392] org.eclipse.jetty.webapp.WebAppClassLoader@1d0eb0b is using native source com.zeroturnaround.javarebel.fR@1186cf9
+[11392] org.eclipse.jetty.webapp.WebAppClassLoader@1d0eb0b toString(): ContextLoader@Quotes
+[11392] org.eclipse.jetty.webapp.WebAppClassLoader@1d0eb0b URLs: []
+[11392] org.eclipse.jetty.webapp.WebAppClassLoader@1d0eb0b parents: java.net.URLClassLoader@633b88, java.net.URLClassLoader@1004a1a, xsbt.boot.BootFilteredLoader@1c67b54, sun.misc.Launcher$AppClassLoader@480457, sun.misc.Launcher$ExtClassLoader@14fe5c
+[11455] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.quotes.QuotesServlet' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/quotes/QuotesServlet.class'.
+[14200] java.net.URLClassLoader@633b88 found resource: 'org/eclipse/jetty/http/useragents' from 'jar:file:/home/rafaelf/tcc/winter/libs/jetty/jetty-http-7.0.2.v20100331.jar!/org/eclipse/jetty/http/useragents'.
+[26240] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/WinterBootstrap$.class' found for resource 'winter/WinterBootstrap$.class'.
+[26240] java.net.URLClassLoader@633b88 instrumented class 'winter.WinterBootstrap$' from  'Virtual Resource [winter/WinterBootstrap$.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26240] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/ServletApiRequest.class' found for resource 'winter/ServletApiRequest.class'.
+[26240] java.net.URLClassLoader@633b88 instrumented class 'winter.ServletApiRequest' from  'Virtual Resource [winter/ServletApiRequest.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26258] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Request.class' found for resource 'winter/Request.class'.
+[26258] java.net.URLClassLoader@633b88 instrumented class 'winter.Request' from  'Virtual Resource [winter/Request.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26258] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Winter$HtmlResponse.class' found for resource 'winter/Winter$HtmlResponse.class'.
+[26258] java.net.URLClassLoader@633b88 instrumented class 'winter.Winter$HtmlResponse' from  'Virtual Resource [winter/Winter$HtmlResponse.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26258] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Response.class' found for resource 'winter/Response.class'.
+[26258] java.net.URLClassLoader@633b88 instrumented class 'winter.Response' from  'Virtual Resource [winter/Response.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26551] java.net.URLClassLoader@633b88 instrumented class 'winter.samples.Quotes.QuotesApplication$$anonfun$quotesList$1' from  'file:/home/rafaelf/tcc/winter/Quotes/target/scala_2.8.0.RC6/classes/winter/samples/Quotes/QuotesApplication$$anonfun$quotesList$1.class'.
+[26588] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Output.class' found for resource 'winter/Output.class'.
+[26590] java.net.URLClassLoader@633b88 instrumented class 'winter.Output' from  'Virtual Resource [winter/Output.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26592] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Output$$anon$1.class' found for resource 'winter/Output$$anon$1.class'.
+[26594] java.net.URLClassLoader@633b88 instrumented class 'winter.Output$$anon$1' from  'Virtual Resource [winter/Output$$anon$1.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26595] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Sink.class' found for resource 'winter/Sink.class'.
+[26596] java.net.URLClassLoader@633b88 instrumented class 'winter.Sink' from  'Virtual Resource [winter/Sink.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
+[26597] File '/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes/winter/Winter$TextResponse.class' found for resource 'winter/Winter$TextResponse.class'.
+[26601] java.net.URLClassLoader@633b88 instrumented class 'winter.Winter$TextResponse' from  'Virtual Resource [winter/Winter$TextResponse.class, Dir [/home/rafaelf/tcc/winter/target/scala_2.8.0.RC6/classes, []]]'.
