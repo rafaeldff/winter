@@ -18,7 +18,8 @@ object QuotesApplication extends Winter {
   def process(request: Request) = HtmlResponse(
     html(
       head(
-        title("Quotes")
+        title("Quotes"),
+        link(rel("stylesheet"), href("/quotes.css"))
         ),
       body(
         (h1("Quotes") :: quotesList):_*
