@@ -10,14 +10,13 @@
       Sample code for the Winter web framework. 
     </description>
 
-    <servlet>
-      <servlet-name>winter</servlet-name>
-      <servlet-class>winter.samples.quotes.QuotesServlet</servlet-class>
-    </servlet>
+    <filter>
+      <filter-name>winter</filter-name>
+      <filter-class>winter.samples.quotes.QuotesFilter</filter-class>
+    </filter>
 
-    <servlet-mapping>
-      <servlet-name>winter</servlet-name>
-      <url-pattern>/quotes</url-pattern>
-
-    </servlet-mapping>
+    <filter-mapping>
+        <filter-name>winter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>
