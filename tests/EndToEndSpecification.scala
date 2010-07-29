@@ -15,7 +15,6 @@ import org.eclipse.jetty.server.{Request => JettyRequest, Server}
 class EndToEndSpecification extends Specification with WebServer with WebClient {
   val port = 9000
   val baseURI = "http://localhost:9000/"
-  
 
   "Winter" should {
     doAfter(shutDownWebServer)

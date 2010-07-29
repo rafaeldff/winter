@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="IogiDeps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/iogi/google-collect-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/iogi/paranamer-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/iogi/mirror-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

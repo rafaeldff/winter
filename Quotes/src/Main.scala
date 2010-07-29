@@ -7,13 +7,13 @@ import org.eclipse.jetty.util.component.LifeCycle.Listener
 import org.eclipse.jetty.util.component.LifeCycle
 import org.eclipse.jetty.server.{Server, Request => JettyRequest}
 import org.eclipse.jetty.server.handler.{DefaultHandler, HandlerList, ResourceHandler, AbstractHandler}
-import org.eclipse.jetty.webapp.WebAppContext
+
 
 object Main extends WebServer {
   val port = 8080
 
   def main(args:Array[String]) = {
-    startApplication(QuotesApplication)
+    startApplication(winter.samples.Quotes.QuotesApplication)
   }
 }
 
@@ -26,28 +26,28 @@ trait WebServer {
   }
 
   private def configureServer(handler: (HttpServletRequest, HttpServletResponse) => Unit): Unit = {
-//    val winterHandler = new AbstractHandler {
-//      def handle(target: String, baseRequest: JettyRequest, request: HttpServletRequest, response: HttpServletResponse) = {
-//        response.setStatus(HttpServletResponse.SC_OK)
-//
-//        try {handler(request, response)}
-//        finally {baseRequest.setHandled(true)}
-//      }
-//    }
-//    val staticFilesHandler = new ResourceHandler
-//    staticFilesHandler.setResourceBase("./webapp")
-//
-//    val handlerList = new HandlerList
-//    handlerList.setHandlers(Array(staticFilesHandler, winterHandler, new DefaultHandler))
+    val winterHandler = new AbstractHandler {
+      def handle(target: String, baseRequest: JettyRequest, request: HttpServletRequest, response: HttpServletResponse) = {
+        response.setStatus(HttpServletResponse.SC_OK)
 
-    val webAppContext = new WebAppContext();
-    webAppContext.setDescriptor("./webapp/WEB-INF/web.xml");
-    webAppContext.setResourceBase("./webapp");
-    webAppContext.setContextPath("/");
-    webAppContext.setParentLoaderPriority(true);
+        try {handler(request, response)}
+        finally {baseRequest.setHandled(true)}
+      }
+    }
+    val staticFilesHandler = new ResourceHandler
+    staticFilesHandler.setResourceBase("./webapp")
+
+    val handlerList = new HandlerList
+    handlerList.setHandlers(Array(staticFilesHandler, winterHandler, new DefaultHandler))
+
+//    val webAppContext = new _root_.org.eclipse.jetty.webapp.WebAppContext();
+//    webAppContext.setDescriptor("./webapp/WEB-INF/web.xml");
+//    webAppContext.setResourceBase("./webapp");
+//    webAppContext.setContextPath("/");
+//    webAppContext.setParentLoaderPriority(true);
 
 
-    server setHandler webAppContext
+    server setHandler winterHandler
   }
 
   def setupCurrentDir() = {

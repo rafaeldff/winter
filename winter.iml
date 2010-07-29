@@ -26,16 +26,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="Jetty">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/jetty" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/libs/jetty" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/libs/jsr" />
@@ -45,19 +35,9 @@
         <jarDirectory url="file://$MODULE_DIR$/libs/jsr" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="IogiWinter">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/iogi" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/libs/iogi" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module" module-name="Hoops" />
+    <orderEntry type="library" name="IogiDeps" level="project" />
     <orderEntry type="module" module-name="Iogi" />
-    <orderEntry type="library" name="scala-2.8.0.RC6" level="project" />
+    <orderEntry type="module" module-name="Hoops" />
     <orderEntry type="module-library">
       <library name="TestLibs">
         <CLASSES>
@@ -68,6 +48,8 @@
         <jarDirectory url="file://$MODULE_DIR$/testLibs" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Jetty" level="project" />
+    <orderEntry type="library" name="scala2.8.0" level="application" />
   </component>
 </module>
 
