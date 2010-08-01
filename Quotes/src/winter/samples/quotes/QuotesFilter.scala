@@ -12,19 +12,18 @@ class QuotesFilter extends Filter {
 
   def destroy = {}
 
-
   def doFilter(servletRequest: ServletRequest, servletResponse: ServletResponse, chain: FilterChain) =
     (servletRequest, servletResponse) match {
       case (request:HttpServletRequest, response: HttpServletResponse) =>
         if (requestingStaticResource(request))
-        chain.doFilter(request, response)
+          chain.doFilter(request, response)
       else
         WinterBootstrap.process(QuotesApplication)(request,response)
     }
 
   private def requestingStaticResource(request:HttpServletRequest):Boolean = {
-    val resourceUrl = context.get.getResource(uriRelativeToContextRoot(request));
-    return resourceUrl != null && isAFile(resourceUrl);
+    val resourceUrl = context.get.getResource(uriRelativeToContextRoot(request))
+    return resourceUrl != null && isAFile(resourceUrl)
   }
 
   def uriRelativeToContextRoot(request: HttpServletRequest) =

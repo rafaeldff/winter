@@ -28,7 +28,7 @@ object QuotesApplication extends Winter {
   def quotesList = sampleQuotes map {
     case Quote(text, author) => div(
       blockquote(p(text)),
-      p(author)
+      p(cssClass("author"))(author)
     )
   }
 }
