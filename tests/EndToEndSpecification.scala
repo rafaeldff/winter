@@ -23,7 +23,7 @@ class EndToEndSpecification extends Specification with WebServer with WebClient 
 
       "servicing a simple web request" in {
         val result = get(baseURI)
-        result must_== "<html><head><title>Hello World</title></head><body><h1>Hello Nasty World!</h1></body></html>"
+        result must_== """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html><head><title>Hello World</title></head><body><h1>Hello Nasty World!</h1></body></html>"""
       }
     }
 
