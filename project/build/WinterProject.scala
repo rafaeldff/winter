@@ -7,6 +7,7 @@ class WinterProject(info: ProjectInfo) extends ParentProject(info)
 	lazy val quotes = project("Quotes", "Quotes Sample", new Quotes(_), core)
 	override def shouldCheckOutputDirectories = false
 
+	val dependsOnHoops = "rafaelferreira.net" %% "hoops" % "0.5-SNAPSHOT"
 
 	class Quotes(info: ProjectInfo) extends DefaultWebProject(info) {
 	  val jetty6 = "org.mortbay.jetty" % "jetty" % "6.1.14" % "test"
@@ -20,10 +21,12 @@ class WinterProject(info: ProjectInfo) extends ParentProject(info)
 	}
 
 	class WinterCore(info: ProjectInfo) extends DefaultProject(info) {
+		val dependsOnHoops = "rafaelferreira.net" %% "hoops" % "0.5-SNAPSHOT"
 		override def mainScalaSourcePath = "src"
 		override def testScalaSourcePath = "tests"
 		override def dependencyPath = "libs"
 		override def testClasspath = super.testClasspath +++ ("testLibs" ** "*.jar")
+
 	}
 
 }
