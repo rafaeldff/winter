@@ -1,3 +1,64 @@
+body {
+    background-color: #6A4A3C;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 50%;
+    top: 0px;
+    height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: #EDC951;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.5em 0 1em 0;
+    color: #00A0B0;
+}
+
 .author {
     text-align: right
+}
+
+ol {
+    list-style: none
+}
+
+label {
+    width: 5em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block
+}
+
+.in {
+    float: right;
+    display: block;
+}
+
+input {
+    width: 20em;
+}
+
+fieldset {
+    background-color: #CC333F;
+    border: 0;
+}
+
+textarea {
+    width: 40em;
+    height: 6em;
+}
+
+.submit {
+    float: right;
+    width: 5em;
+    display: block;
 }

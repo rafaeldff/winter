@@ -1,7 +1,5 @@
-package winter.samples.Quotes
-
-import _root_.winter._
-import hoops.Hoops
+package winter
+package samples.Quotes
 
 case class Quote(author:String, text:String)
 
@@ -13,30 +11,43 @@ object QuotesApplication extends Winter {
     Quote("The string is a stark data structure and everywhere it is passed there is much duplication of process. It is a perfect vehicle for hiding information.", "Alan Perlis")
   )
 
-  import Hoops._
+  import hoops.tc.Html4Strict._
 
   def process(request: Request) = HtmlResponse(
     html(
       head(
-        title("Quotes"),
-        link(rel("stylesheet"), href("/quotes.css"))
+        title("Quotes") ::
+        link(rel("stylesheet"), href("/quotes.css")) ::
+        ENil
       ),
       body(
-        h1("Quotes"),
-        quotesList/*,
-        form(Action("newQuote"))(
-          input(inputType("text"), name("author")),
-          textarea(name("quote"))
-        )*/
+        div(cssClass("main"))(
+          h1("QUOTES") ::
+          quotesList ::
+          fieldset(form(Action("newQuote"))(
+            ol(
+              li(text("quote")),
+              li(input(cssClass("in"), name("author"))),
+              li(submit("ok"))
+            ) :: ENil
+          )) ::
+          ENil
+        )
       ))
   )
 
-  def quotesList = div(sampleQuotes map {
-    case Quote(text, author) => div(
-      blockquote(p(text)),
-      p(cssClass("author"))(author)
-    )} : _*
-  )
+  def submit(buttonLabel:String) = input(inputType("submit"), value(buttonLabel), cssClass("submit"))
 
+  def control(inputType: String)(controlName: String) =
+    label(forElement(controlName))(controlName.capitalize+":") :: input(id(controlName), cssClass("in"), name(controlName)) :: ENil
+
+  def text(controlName: String) =
+    textarea(id(controlName), cssClass("in"), name(controlName))("")
+
+  def quotesList = sampleQuotes map {
+    case Quote(text, author) => div(
+      blockquote(p(text)) ::
+      p(cssClass("author"))(author) :: ENil
+    )}
 }
 

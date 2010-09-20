@@ -1,6 +1,7 @@
 package winter
 
-import _root_.winter.iogi.IogiScala
+import winter.iogi.IogiScala
+import hoops._
 
 trait Response {
   def writeTo(sink:Sink)
@@ -25,7 +26,7 @@ trait Winter extends IogiScala {
     def writeTo(sink:Sink) = sink.writeBytes(text.getBytes)
   }
 
-  case class HtmlResponse(element: hoops.Hoops.Element) extends Response {
+  case class HtmlResponse(element: Base#Element) extends Response {
     val doctype = """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">"""
 
     def writeTo(sink:Sink) = new TextResponse(doctype + element.toHtmlString).writeTo(sink)
