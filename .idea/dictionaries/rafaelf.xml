@@ -5,6 +5,7 @@
       <w>ccnil</w>
       <w>contravariant</w>
       <w>doctype</w>
+      <w>fieldset</w>
       <w>instantiable</w>
       <w>instantiator</w>
       <w>instantiator&lt;?&gt;</w>
@@ -15,6 +16,7 @@
       <w>scala</w>
       <w>supertypes</w>
       <w>target&lt;?&gt;</w>
+      <w>textarea</w>
       <w>typeclass</w>
       <w>uninstantiable</w>
     </words>
