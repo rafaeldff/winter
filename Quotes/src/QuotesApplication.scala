@@ -45,7 +45,7 @@ object QuotesApplication extends Winter {
     textarea(id(controlName), cssClass("in"), name(controlName))("")
 
   def quotesList = sampleQuotes map {
-    case Quote(text, author) => div(
+    case Quote(text, author) => div(cssClass("quote"))(
       blockquote(p(text)) ::
       p(cssClass("author"))(author) :: ENil
     )}

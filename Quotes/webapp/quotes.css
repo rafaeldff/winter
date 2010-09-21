@@ -5,21 +5,33 @@ body {
 }
 
 .main {
-    width: 50%;
+    width: 45em;
     top: 0px;
     height: 1000px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 1em 2em 0 2em;
     background-color: #EDC951;
 }
 
 h1 {
     margin: 0;
-    padding: 0.5em 0 1em 0;
+    padding: 0.5em 0 0.5em 0;
     color: #00A0B0;
+}
+
+p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+.quote {
+    margin-top: 3em;
+}
+
+blockquote {
+    margin: 0;
 }
 
 .author {
@@ -27,29 +39,23 @@ h1 {
 }
 
 ol {
+    padding: 0;
     list-style: none
-}
-
-label {
-    width: 5em;
-    float: left;
-    text-align: right;
-    margin-right: 0.5em;
-    display: block
-}
-
-.in {
-    float: right;
-    display: block;
 }
 
 input {
     width: 20em;
+    margin-left:20em;
 }
 
 fieldset {
+    width: 50%;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #CC333F;
     border: 0;
+    padding: 2em;
 }
 
 textarea {
@@ -58,7 +64,5 @@ textarea {
 }
 
 .submit {
-    float: right;
     width: 5em;
-    display: block;
 }
